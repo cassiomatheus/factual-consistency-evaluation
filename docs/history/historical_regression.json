@@ -1,0 +1,45 @@
+{
+  "nli_regression": [
+    {
+      "input_file": "03_alinhamentos_nli_v7_parte_0_a_3.parquet",
+      "input_sha256": "9f5f2c5236791c83fa5e9b1f118f833bc71058c22807605d1cb6f8470f8c64b6",
+      "rows": 270,
+      "identical_scores": 21,
+      "identical_decisions": 235,
+      "max_score_difference": 0.5881353857833892,
+      "scope": "REAGGREGATION_OF_STORED_PROBABILITIES_NO_NEURAL_INFERENCE"
+    },
+    {
+      "input_file": "03_alinhamentos_nli_v7_parte_0_a_5.parquet",
+      "input_sha256": "b568781de8352765457cde407638d08a016f0581496349ac6c91f9084f86c868",
+      "rows": 457,
+      "identical_scores": 457,
+      "identical_decisions": 457,
+      "max_score_difference": 0.0,
+      "scope": "REAGGREGATION_OF_STORED_PROBABILITIES_NO_NEURAL_INFERENCE"
+    },
+    {
+      "input_file": "03_alinhamentos_nli_v7_parte_0_a_10.parquet",
+      "input_sha256": "c229a64d4a0b8374d2c84e018da14503855f60f6f8f8b9ed525a2cb4fabbbf88",
+      "rows": 1007,
+      "identical_scores": 1007,
+      "identical_decisions": 1007,
+      "max_score_difference": 0.0,
+      "scope": "REAGGREGATION_OF_STORED_PROBABILITIES_NO_NEURAL_INFERENCE"
+    },
+    {
+      "input_file": "03_alinhamentos_nli_v7_parte_0_a_50.parquet",
+      "input_sha256": "421b5719380785fab0e0385e3f7a21869623042a6921af0511646a5cecf9d52c",
+      "rows": 4874,
+      "identical_scores": 4874,
+      "identical_decisions": 4874,
+      "max_score_difference": 0.0,
+      "scope": "REAGGREGATION_OF_STORED_PROBABILITIES_NO_NEURAL_INFERENCE"
+    }
+  ],
+  "injection_technical_audit": {
+    "checked_variants": 150,
+    "technical_pass": 150
+  },
+  "scope_warning": "Reaggregation and technical integrity are not factual accuracy or a full neural equivalence result."
+}

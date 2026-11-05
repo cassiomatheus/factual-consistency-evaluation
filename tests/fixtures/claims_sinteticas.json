@@ -1,0 +1,30 @@
+[
+  {
+    "doc_idx": 0,
+    "tipo_resumo": "original",
+    "documento_fonte": "In 2021, the National Research Agency reviewed the project. The committee approved the project in January 2022. This decision followed an extensive public consultation. The committee did not reject the project. The budget was set at 18 million dollars. The agency later published a report confirming the approval.",
+    "resumo_texto": "The committee rejected the project. The project budget was 18 million dollars.",
+    "claims": [
+      {"claim_original":"The committee rejected the project.","claim_resolvida":"The committee rejected the project.","sentenca_origem":"The committee rejected the project.","indice_sentenca":0,"gabarito_injetado":"predicate_error"},
+      {"claim_original":"The budget was 18 million dollars.","claim_resolvida":"The budget was 18 million dollars.","sentenca_origem":"The project budget was 18 million dollars.","indice_sentenca":1}
+    ]
+  },
+  {
+    "doc_idx": 0,
+    "tipo_resumo": "predicate",
+    "documento_fonte": "In 2021, the National Research Agency reviewed the project. The committee approved the project in January 2022. This decision followed an extensive public consultation. The committee did not reject the project. The budget was set at 18 million dollars. The agency later published a report confirming the approval.",
+    "resumo_texto": "The committee [ERROR_PREDICATE: rejected] rejected the project.",
+    "claims": [
+      {"claim_original":"The committee rejected the project.","claim_resolvida":"The committee rejected the project.","sentenca_origem":"The committee rejected the project.","indice_sentenca":0,"gabarito_injetado":"predicate_error"}
+    ]
+  },
+  {
+    "doc_idx": 1,
+    "tipo_resumo": "original",
+    "documento_fonte": "Stanford University was selected to conduct the climate study. The National Research Council announced the selection in April. Several institutions had submitted proposals. The final report was published in December.",
+    "resumo_texto": "MIT was selected to conduct the climate study.",
+    "claims": [
+      {"claim_original":"MIT was selected to conduct the climate study.","claim_resolvida":"MIT was selected to conduct the climate study.","sentenca_origem":"MIT was selected to conduct the climate study.","indice_sentenca":0}
+    ]
+  }
+]

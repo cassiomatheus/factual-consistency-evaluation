@@ -1,0 +1,1028 @@
+[
+  {
+    "origin": "pipeline/01_extract_claims_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/claims/extraction.py",
+    "definition": "normalize_text",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/01_extract_claims_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/claims/extraction.py",
+    "definition": "extract_candidate_antecedents",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/01_extract_claims_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/claims/extraction.py",
+    "definition": "detect_pronoun_claim",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/01_extract_claims_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/claims/extraction.py",
+    "definition": "build_context",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/01_extract_claims_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/claims/extraction.py",
+    "definition": "remove_error_marker",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/01_extract_claims_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/claims/extraction.py",
+    "definition": "main",
+    "state": "adapted"
+  },
+  {
+    "origin": "01_extract_claims_v7_melhorado.py",
+    "destination": "src/factual_eval/claims/enriched.py",
+    "definition": "normalizar_texto",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "01_extract_claims_v7_melhorado.py",
+    "destination": "src/factual_eval/claims/enriched.py",
+    "definition": "unique_preservando_ordem",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "01_extract_claims_v7_melhorado.py",
+    "destination": "src/factual_eval/claims/enriched.py",
+    "definition": "extrair_entidades_recentes",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "01_extract_claims_v7_melhorado.py",
+    "destination": "src/factual_eval/claims/enriched.py",
+    "definition": "resolver_pronome_controladamente",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "01_extract_claims_v7_melhorado.py",
+    "destination": "src/factual_eval/claims/enriched.py",
+    "definition": "extrair_relacao_argumental",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "01_extract_claims_v7_melhorado.py",
+    "destination": "src/factual_eval/claims/enriched.py",
+    "definition": "auditar_dependencia_na_fonte",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "01_extract_claims_v7_melhorado.py",
+    "destination": "src/factual_eval/claims/enriched.py",
+    "definition": "classificar_perturbacao",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "01_extract_claims_v7_melhorado.py",
+    "destination": "src/factual_eval/claims/enriched.py",
+    "definition": "main",
+    "state": "adapted"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "clean_text",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "normalize",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "token_list",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "content_tokens",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "lexical_overlap",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "entity_set",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "BM25Index",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "build_window",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "contextual_query",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "entity_query",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "build_queries",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "semantic_candidates",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "retrieve_candidates",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "rerank_cross",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "cosine_similarity_numpy",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "mmr_select",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "select_windows",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/retrieval/pipeline.py",
+    "definition": "main",
+    "state": "adapted"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "normalize",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "tokens",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "lexical_overlap",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "content_lexical_overlap",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "extract_numbers",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "normalize_number",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "extract_dates",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "extract_entities",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "extract_polarity",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "extract_predicates",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "detect_structural_conflicts",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "make_claim_variants",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "evaluate_single_evidence",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "aggregate_nli_scores",
+    "state": "adapted"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "decide_nli_status",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "destination": "src/factual_eval/nli/evaluation.py",
+    "definition": "main",
+    "state": "adapted"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "normalizar",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "tokens",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "lexical_overlap",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "safe_float",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "parse_context",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "text_from_context",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "get_nli_status",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "normalize_ground_truth",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "extract_numbers",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "normalize_number",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "extract_years",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "has_negation",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "extract_entities",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "normalized_entity_text",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "entity_match_score",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "extract_predicate_structures",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "best_argument_match",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "predicates_are_comparable",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "verb_similarity",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "relevant_pronouns",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "candidate_antecedents",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "detect_coreference_issue",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "detect_entity_issue",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "detect_predicate_issue",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "classify_taxonomy",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "imprimir_matriz",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "imprimir_metricas_condicionais",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "imprimir_taxonomia_injetada",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "destination": "src/factual_eval/taxonomy/classification.py",
+    "definition": "main",
+    "state": "adapted"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "normalize_text",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "safe_float",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "apply_token_replacement_char",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "replace_span_in_text",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "adjust_capitalization_1",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "adjust_capitalization",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "token_has_negation",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "sentence_has_negation",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "is_auxiliary_or_modal",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "has_predicate_structure",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "get_antonym_lemma",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "get_inflected_antonym",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "build_negated_predicate",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "build_tense_shift",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "generate_predicate_transformation",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "inject_realistic_predicate_errors",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "inject_realistic_coreference_errors",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "get_sentence_entity_occurrences",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "entity_sentence_index",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "inject_realistic_entity_errors",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "gerador_predicado_corref_entity_V5.py",
+    "destination": "src/factual_eval/data/injection.py",
+    "definition": "processar_dataset_erros",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "metric/claim_extractor/claim_extractor.py",
+    "destination": "src/factual_eval/claims/model.py",
+    "definition": "ClaimExtractor",
+    "state": "adapted"
+  },
+  {
+    "origin": "metric/nli/nli_aligner.py",
+    "destination": "src/factual_eval/nli/model.py",
+    "definition": "NLIAligner",
+    "state": "adapted"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "flatten",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "chunks",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "sliding_chunks",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "distinct",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "split_into_sentences",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "get_sentences",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "split_into_sentences_batched",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "split_into_paragraphs",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "hash_text",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "load_pickle",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "dump_pickle",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "chunk_document_with_offsets",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "region_from_position",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "map_claim_to_chunk",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "compute_claim_region_proportions",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "compute_source_usage_chunks",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "get_chunk_embeddings",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "map_claim_to_chunk_sbert",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "compute_evidence_score",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "compute_faithfulness_score",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "split_sentences",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "reorder_sentences",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "remove_sentences",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "simple_paraphrase",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "perturb_text",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "compute_stability_score",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "compute_reliability",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "metric/utils/utils.py",
+    "destination": "src/factual_eval/utils/batching.py",
+    "definition": "evaluate_sample",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "clean_number",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "hash_string",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "clean_text",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "clean_markers",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "write_jsonl",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "load_records",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "unpack_claims",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "segment_document",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "prepare_inputs",
+    "state": "adapted"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "tokenize",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "simple_bm25",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "ordered",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "rrf",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "get_dense_and_reranker",
+    "state": "adapted"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "run",
+    "state": "adapted"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "destination": "src/factual_eval/reference/preparation.py",
+    "definition": "parser",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "read_jsonl",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "write_jsonl",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "bound",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "jaccard",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "structural_signals",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "normalize_label",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "load_predictions",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "model_signal",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "rank_signals",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "choose_diversified",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "select",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "destination": "src/factual_eval/reference/sampling.py",
+    "definition": "parser",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/05_sugerir_nli_hf.py",
+    "destination": "src/factual_eval/reference/model_suggestions.py",
+    "definition": "read_jsonl",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/05_sugerir_nli_hf.py",
+    "destination": "src/factual_eval/reference/model_suggestions.py",
+    "definition": "run",
+    "state": "adapted"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/02_gerar_html.py",
+    "destination": "src/factual_eval/reference/html.py",
+    "definition": "jsonl",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/02_gerar_html.py",
+    "destination": "src/factual_eval/reference/html.py",
+    "definition": "run",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/03_exportar_gold.py",
+    "destination": "src/factual_eval/reference/export.py",
+    "definition": "read_jsonl",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/03_exportar_gold.py",
+    "destination": "src/factual_eval/reference/export.py",
+    "definition": "write_jsonl",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/03_exportar_gold.py",
+    "destination": "src/factual_eval/reference/export.py",
+    "definition": "write_csv",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/03_exportar_gold.py",
+    "destination": "src/factual_eval/reference/export.py",
+    "definition": "validate",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/06_audit_qwen.py",
+    "destination": "src/factual_eval/reference/qwen.py",
+    "definition": "Auditoria",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/06_audit_qwen.py",
+    "destination": "src/factual_eval/reference/qwen.py",
+    "definition": "texto",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/06_audit_qwen.py",
+    "destination": "src/factual_eval/reference/qwen.py",
+    "definition": "auditar",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/06_audit_qwen.py",
+    "destination": "src/factual_eval/reference/qwen.py",
+    "definition": "auditar_dataframe",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/06_audit_qwen.py",
+    "destination": "src/factual_eval/reference/qwen.py",
+    "definition": "caminho_projeto",
+    "state": "not_migrated"
+  },
+  {
+    "origin": "pipeline/06_audit_qwen.py",
+    "destination": "src/factual_eval/reference/qwen.py",
+    "definition": "resumo",
+    "state": "identical_ast"
+  },
+  {
+    "origin": "pipeline/06_audit_qwen.py",
+    "destination": "src/factual_eval/reference/qwen.py",
+    "definition": "main",
+    "state": "not_migrated"
+  }
+]

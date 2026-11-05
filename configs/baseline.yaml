@@ -1,0 +1,72 @@
+schema_version: 1
+name: phase1_observed_baseline
+runtime:
+  device: cuda:0
+  threads: 4
+selection:
+  start: 0
+  num_docs: 5
+injection:
+  dataset: ccdv/govreport-summarization
+  dataset_revision: null
+  split: test
+  spacy_model: en_core_web_md
+  num_errors: 5
+  seed: 42
+  num_docs: 50
+claims:
+  variant: baseline
+  spacy_model: en_core_web_sm
+  model_name: Babelscape/t5-base-summarization-claim-extractor
+  revision: 94775fb1c8dc2c3ef1bfec413f9f961e6ba5a1c8
+  batch_size: 16
+  max_input_length: 256
+  max_output_length: 128
+  num_beams: 4
+  early_stopping: true
+retrieval:
+  spacy_model: en_core_web_sm
+  embedding_model: all-mpnet-base-v2
+  embedding_revision: e8c3b32edf5434bc2275fc9bab85f82640a19130
+  reranker_model: cross-encoder/ms-marco-MiniLM-L-6-v2
+  reranker_revision: 233902d25c440f23af6f7d6e94d2946bac0bee0a
+  sentence_top_k: 8
+  window_top_k: 4
+  semantic_pool: 30
+  lexical_pool: 30
+  context_radius: 2
+  max_coref_variants: 4
+  use_mmr: false
+  mmr_lambda: 0.85
+  max_window_overlap: 0.8
+  context_rerank_weight: 0.30
+  semantic_weight: 0.60
+  lexical_weight: 0.25
+  entity_weight: 0.15
+nli:
+  spacy_model: en_core_web_sm
+  model_name: MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli
+  revision: b3546ea6b0346eb6f8d5d68b13c7dc6d0376b3d7
+  batch_size: 32
+  max_length: 512
+  support_threshold: 0.64
+  contradiction_threshold: 0.62
+  support_margin: 0.10
+  contradiction_margin: 0.10
+  structural_min_lexical: 0.40
+  support_exact_weight: 0.30
+  support_expanded_weight: 0.70
+  contradiction_exact_weight: 0.75
+  contradiction_expanded_weight: 0.25
+  quality_retrieval_weight: 0.60
+  quality_cross_weight: 0.40
+  quality_floor: 0.80
+  quality_scale: 0.20
+taxonomy:
+  spacy_model: en_core_web_sm
+  embedding_model: all-MiniLM-L6-v2
+  embedding_revision: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+  entity_threshold: 0.78
+  predicate_threshold: 0.72
+  argument_threshold: 0.70
+  min_lexical_overlap: 0.25

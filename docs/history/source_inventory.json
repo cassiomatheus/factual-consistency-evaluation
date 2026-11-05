@@ -1,0 +1,620 @@
+[
+  {
+    "path": ".vscode/settings.json",
+    "bytes": 132,
+    "sha256": "fb68765dabb197cac60376c803ac61894961b835ca8760705eb89a09e2177551",
+    "migrated": false
+  },
+  {
+    "path": "01_extract_claims_v7_melhorado.py",
+    "bytes": 21112,
+    "sha256": "3d66d67a5843142a2b778f886619397ab7a19d6a5776c01050dbd326c557c108",
+    "migrated": true
+  },
+  {
+    "path": "03_compute_nli_v7_melhorado.py",
+    "bytes": 22077,
+    "sha256": "22f346cd66df0deff9d6cf8e394423a7d80169dde65d447ac3ab2e70bba3e129",
+    "migrated": false
+  },
+  {
+    "path": "DOCUMENTACAO_PROJETO.md",
+    "bytes": 27837,
+    "sha256": "74edb5da81995e275f1c61b015c4e580b7804aa69b345ba2333c8a28c971f897",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/METODOLOGIA.md",
+    "bytes": 7330,
+    "sha256": "5f38fc37aa61a9d75d414abe88481c8a8f3cf5793ad59a71d8725585d7371d1b",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/README.md",
+    "bytes": 21290,
+    "sha256": "0bfed7456adc9c8c0eb308a5611befffd257f4828271d3293f9e5fa316d8bb4d",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/dados_exemplo/claims_sinteticas.json",
+    "bytes": 2321,
+    "sha256": "2446f93a3b365f2aabe7645ab9ec17c9b1103e13e8b4109bfd9ea083562f3ff0",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/extrator_fornecido/01_extract_claims_v7_melhorado.py",
+    "bytes": 21112,
+    "sha256": "3d66d67a5843142a2b778f886619397ab7a19d6a5776c01050dbd326c557c108",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py",
+    "bytes": 14612,
+    "sha256": "e18ee75dec13a19815317b9023791958ab6f602adcedaf951eda5e17cae62079",
+    "migrated": true
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py",
+    "bytes": 13857,
+    "sha256": "d98ec2d80555fa4f40b6d3d91eea04f687c25d5f1b705f023f40ba69f7153c94",
+    "migrated": true
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/05_sugerir_nli_hf.py",
+    "bytes": 4352,
+    "sha256": "f13f536ca28512e49cb059200a9470b3012e76a92767be9fd55940a10b759029",
+    "migrated": true
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/02_gerar_html.py",
+    "bytes": 2660,
+    "sha256": "8331d529fdec493723bfd749063a50a04f7d198dd9eecc09ce78149e523105bc",
+    "migrated": true
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/03_exportar_gold.py",
+    "bytes": 10271,
+    "sha256": "4dcde0dbb8219da5fd1c2f2a51cf8987ae831085fd9736dc7359b9a349e9fdb7",
+    "migrated": true
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/modelo.html",
+    "bytes": 35095,
+    "sha256": "64093ec2002e6110cd2b2f337665745ee2746934e15cb23b040bf10344e16ae0",
+    "migrated": true
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/requirements.txt",
+    "bytes": 190,
+    "sha256": "899f2f1caeb49a1dfc3f8e43cf537202a44a9331f12fcb17a0ac1e59c41fe51e",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/avaliacao.html",
+    "bytes": 18937812,
+    "sha256": "4b9e714fa3bd005d8cf9a91d937e037998cbee7be834f0d08a7f7dafe389f2bf",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/avaliacao_seletiva.html",
+    "bytes": 19286770,
+    "sha256": "365e039d67ddcfefc2a511f4132ca8371fc54a821f7d65b928d9d128117adb5b",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/brutos/amostragem.jsonl",
+    "bytes": 360811,
+    "sha256": "f4c9c52b315e78b8a0391831afd750b074f5268f257b7c8b04455e40afaa80d7",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/brutos/candidatos.jsonl",
+    "bytes": 16559608,
+    "sha256": "956d357088dc332f46f58b0068ba5bf41faf88ac1a63b3ee1469a9b0ceedb7e0",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/brutos/claims.jsonl",
+    "bytes": 2245824,
+    "sha256": "01dd38d3dac431dc3824f5360f182dfb1070d1f3ea26f5bb1d83ecd12e464195",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/brutos/documentos.jsonl",
+    "bytes": 327841,
+    "sha256": "836e55f4d461af59fd095762e62915af5a35b357ef2af03a4540d6b2271ec3b4",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/brutos/manifest.json",
+    "bytes": 718,
+    "sha256": "dcb2be2d648a1f86e055519142feef70f581b2f737069883ea34f6d99828f1ad",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/brutos/plano_amostragem.json",
+    "bytes": 1076,
+    "sha256": "90f3fcc1fe9d88dc97c508d00d51e7cbffff4429fe7fd7ecdf5d68da12fc0778",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/brutos/ranking_prioridade.csv",
+    "bytes": 82084,
+    "sha256": "322444a69610823ca357bc94c19eeb3863dd618dd13b4964bff20bda7bb93ce8",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/brutos/sentencas.jsonl",
+    "bytes": 644443,
+    "sha256": "c10ca1c31a030b7701a74fb2b8ddaa6413002ca2a6bf263cc793bd59df2d5ae5",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo.html",
+    "bytes": 44726,
+    "sha256": "365737b9c7372c3ebe52b4366f81b2e28f07cf1907e2fdceb6b0fe27f6fb3061",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_brutos/candidatos.jsonl",
+    "bytes": 14650,
+    "sha256": "ff4a1214fba7cc60f26020decb4c4b1d1da55e376a1fbf80ec445cfe1a50d50c",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_brutos/claims.jsonl",
+    "bytes": 1923,
+    "sha256": "34d2d053e39e4141789e6e8977e3a7cb4ef3647f14957d445dcd1aa45184afab",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_brutos/documentos.jsonl",
+    "bytes": 889,
+    "sha256": "04d6e0b7afd2a033656d4f976cdec356bf86eda9272456a7b1a9281664db9307",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_brutos/manifest.json",
+    "bytes": 684,
+    "sha256": "64055bbeff3b8ea6deb51341f3eacf04536650131e0aaeaf30c91982db762562",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_brutos/sentencas.jsonl",
+    "bytes": 2193,
+    "sha256": "23db423bf9694906efa8d7a3ed1038f0345898d05ca8949d73386f7195bd2d3f",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_seletiva.html",
+    "bytes": 57559,
+    "sha256": "9c42a478dcb0ccf6f148300267a236b1e258f78786bdbecb60488cd32004c0fc",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_seletiva_brutos/amostragem.jsonl",
+    "bytes": 2849,
+    "sha256": "2f0573697ef2b7217bbe4c034cd45d13fff7a8efb5b421f5b61dda4ceb18f5da",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_seletiva_brutos/candidatos.jsonl",
+    "bytes": 14650,
+    "sha256": "ff4a1214fba7cc60f26020decb4c4b1d1da55e376a1fbf80ec445cfe1a50d50c",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_seletiva_brutos/claims.jsonl",
+    "bytes": 1923,
+    "sha256": "34d2d053e39e4141789e6e8977e3a7cb4ef3647f14957d445dcd1aa45184afab",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_seletiva_brutos/documentos.jsonl",
+    "bytes": 889,
+    "sha256": "04d6e0b7afd2a033656d4f976cdec356bf86eda9272456a7b1a9281664db9307",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_seletiva_brutos/manifest.json",
+    "bytes": 712,
+    "sha256": "3922ae17cac5f10f586071633f949d99b446f479bc81aa21ecf87c806216665a",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_seletiva_brutos/plano_amostragem.json",
+    "bytes": 1055,
+    "sha256": "fe93627f21c59f87ec8018cb647b95b0830de1960a10d64387fa1a8e9b4a1e9f",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_seletiva_brutos/ranking_prioridade.csv",
+    "bytes": 625,
+    "sha256": "56bf3c27a5e1c113ed7dc5e888e3538978046abd209c4e665b838659d42e6b99",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/saida/demo_seletiva_brutos/sentencas.jsonl",
+    "bytes": 2193,
+    "sha256": "23db423bf9694906efa8d7a3ed1038f0345898d05ca8949d73386f7195bd2d3f",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/tests/interface.js",
+    "bytes": 21010,
+    "sha256": "a47acb1511506c02ccfc0f93a70f76b3732c370be5bea79eb112a2cede453dcf",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/tests/test_pipeline.py",
+    "bytes": 4209,
+    "sha256": "4167f32b76d8bea1f2f450abdaa833e020755713902ff61eabb6ce2c72a44654",
+    "migrated": false
+  },
+  {
+    "path": "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/tests/test_selecao.py",
+    "bytes": 6114,
+    "sha256": "8bbee528e0ec39ea557fc98b2306c21e7b6c60c66b5d661fc1b924b7c21ab1bf",
+    "migrated": false
+  },
+  {
+    "path": "README.md",
+    "bytes": 11663,
+    "sha256": "8b04fff012382c50708c308e54372e34fe4294083be34ac222dc36900eb894e3",
+    "migrated": false
+  },
+  {
+    "path": "Raio_X_Metadados_Doc_0.txt",
+    "bytes": 67586,
+    "sha256": "588a37426d076f957a6db4922a3aa277e7efe7755c0ed2371568e94c32c9961f",
+    "migrated": false
+  },
+  {
+    "path": "alinhamentos_fenice_vanilla_v6_parte_0_a_1.json",
+    "bytes": 52193,
+    "sha256": "7ce6138e1c7bb99e299f53133f64fa60ae641f8438450f63d877af46ef0566d1",
+    "migrated": false
+  },
+  {
+    "path": "alinhamentos_fenice_vanilla_v6_parte_0_a_2.json",
+    "bytes": 90364,
+    "sha256": "54d9e8944214b1ebb6a2497b065d17e58cf9074577f24660667bfa36ededa069",
+    "migrated": false
+  },
+  {
+    "path": "anotacoes_05240794f_2026-10-21.json",
+    "bytes": 8937,
+    "sha256": "be9083e03de4177670078d099f7af18d296a94b3c936e8cbd0b71e4cb9139cbb",
+    "migrated": false
+  },
+  {
+    "path": "antonimos_govreport.json",
+    "bytes": 12935,
+    "sha256": "f8ff9f3a7d3ac3c340205f1cd92656159d8a088ba2353a8ff4a7621f9605ca50",
+    "migrated": true
+  },
+  {
+    "path": "csv/.~lock.govreport_erros_pred_corref_entity_controlados_v7.csv#",
+    "bytes": 120,
+    "sha256": "53b8e76d8c484fe6d1d87910e8a7e9cd4d9e3360c6d2fd1e5104b7e08406bb87",
+    "migrated": false
+  },
+  {
+    "path": "csv/dataset_govreport_50_docs_treino.csv",
+    "bytes": 3340311,
+    "sha256": "ad8fa62381d037a9d43aec7252164b3afe61cea966a5439f0aa62ad92454b37e",
+    "migrated": false
+  },
+  {
+    "path": "csv/diagnostico_66_falsos_negativos.csv",
+    "bytes": 66227,
+    "sha256": "955d5e78d9a77410532716289c67fd59ca31d4862b8993977fbc3746d1c5eabd",
+    "migrated": false
+  },
+  {
+    "path": "csv/diagnostico_69_falsas_contradicoes.csv",
+    "bytes": 90843,
+    "sha256": "a4c900cf063486a457ad583abc097bbb8d09075fedc3860e57eec0e2915391b5",
+    "migrated": false
+  },
+  {
+    "path": "csv/diagnostico_93_not_supported.csv",
+    "bytes": 50309,
+    "sha256": "c81bee315e45673bd8aa2544d209dcadf3eda1d06428cd84bc6598c0c2930946",
+    "migrated": false
+  },
+  {
+    "path": "csv/govreport_erros_pred_corref_entity_controlados_v6.csv",
+    "bytes": 427305,
+    "sha256": "e9e2565bd2b00aa01fe448f3cbc81b5cc0732e2d023466c88126ba7117dcd72a",
+    "migrated": false
+  },
+  {
+    "path": "csv/govreport_erros_pred_corref_entity_controlados_v7.csv",
+    "bytes": 3680753,
+    "sha256": "dbe248cef3e5c885a7131a0d8c32480975293a3fbf03f50bf2983aca81368152",
+    "migrated": false
+  },
+  {
+    "path": "data/pronouns.txt",
+    "bytes": 844,
+    "sha256": "73550f76e21fc1457cc3e43a02b63113c7ce0f2b9476ba865b76fd2f4cb9f9e9",
+    "migrated": false
+  },
+  {
+    "path": "gerador_predicado_corref_entity_V5.py",
+    "bytes": 46702,
+    "sha256": "06448f8e16d08db16a7e65afed8819e33037b1f556a64c69dbe64811ffe41354",
+    "migrated": true
+  },
+  {
+    "path": "metric/FENICE.py",
+    "bytes": 15626,
+    "sha256": "0e3a578ef54a85ddbac6cd8ef3986b8733003b9ffd62aa2cae6b9e194a9ed59e",
+    "migrated": false
+  },
+  {
+    "path": "metric/claim_extractor/claim_extractor.py",
+    "bytes": 1905,
+    "sha256": "a62f1fbd5b59174f13aeb164bdc30c28d347210edaa644c55f140079df14a82c",
+    "migrated": true
+  },
+  {
+    "path": "metric/coreference_resolution/coreference_resolution.py",
+    "bytes": 4260,
+    "sha256": "007959b67d00c29fd1b95dc310b970a45896e9cfe7c26f3e6fa2c2eb7e02d81d",
+    "migrated": false
+  },
+  {
+    "path": "metric/nli/nli_aligner.py",
+    "bytes": 3769,
+    "sha256": "62c6d2797f18224d382658e13e82ef29fadfed6b2b437bd7486af3d2193dc391",
+    "migrated": true
+  },
+  {
+    "path": "metric/taxonomy_classifier.py",
+    "bytes": 16359,
+    "sha256": "e94c50003d37a56e015aad0e671691893fc1cc2df2fa6286563bef885a83e518",
+    "migrated": false
+  },
+  {
+    "path": "metric/utils/utils.py",
+    "bytes": 16218,
+    "sha256": "4b56928fb689c68050a32216734bf0895015520b92a0a419dcdc461c0578d8ad",
+    "migrated": true
+  },
+  {
+    "path": "parquet/01_B_claims_validadas_v7_parte_0_a_5.parquet",
+    "bytes": 276014,
+    "sha256": "ec23a459d00bba4b896bad0ef759bfd9bb9c9ee8657d910c4b927635bd13ddfb",
+    "migrated": false
+  },
+  {
+    "path": "parquet/01_claims_extraidos_v6_parte_0_a_3.parquet",
+    "bytes": 152226,
+    "sha256": "a047fe5a328a91ffcade5b361d398e5f0b3b4160cd531d5d13894f4d7f83d4ce",
+    "migrated": false
+  },
+  {
+    "path": "parquet/01_claims_extraidos_v7_parte_0_a_10.parquet",
+    "bytes": 581321,
+    "sha256": "de1286e6dfbbf652b6b61283dc9f6faed3d3ea4e7642ec1c7a1afbfef0868402",
+    "migrated": false
+  },
+  {
+    "path": "parquet/01_claims_extraidos_v7_parte_0_a_3.parquet",
+    "bytes": 199746,
+    "sha256": "829fe87fb8acce12970ede53a6aeda6460ad70954a86be85941f87af9497940d",
+    "migrated": false
+  },
+  {
+    "path": "parquet/01_claims_extraidos_v7_parte_0_a_5.parquet",
+    "bytes": 312054,
+    "sha256": "206480211070796f95aba7f57f2538aaf025eca59740e53c29b90f7a1b807f1b",
+    "migrated": false
+  },
+  {
+    "path": "parquet/01_claims_extraidos_v7_parte_0_a_50.parquet",
+    "bytes": 2714003,
+    "sha256": "72e30c3c50bd81ef15ed927d5a6d1f5fa41eb9b3f4f233bc83906b15ee13e6a8",
+    "migrated": false
+  },
+  {
+    "path": "parquet/02_evidencias_recuperadas_v6_parte_0_a_3.parquet",
+    "bytes": 208711,
+    "sha256": "9532c19da05cc2b491022d319f813b4fdc3546cd8e0d8100a665eaaef1476051",
+    "migrated": false
+  },
+  {
+    "path": "parquet/02_evidencias_recuperadas_v7_parte_0_a_10.parquet",
+    "bytes": 1365951,
+    "sha256": "cd44be7d66ad7aed8302325925dd91b8bb42695f7febfd9af2e55c17b73ce9a2",
+    "migrated": false
+  },
+  {
+    "path": "parquet/02_evidencias_recuperadas_v7_parte_0_a_3.parquet",
+    "bytes": 412200,
+    "sha256": "11ea7b0d86a668af8b515678cd805c813dc264c419757d4bebbb7ab6d3372aff",
+    "migrated": false
+  },
+  {
+    "path": "parquet/02_evidencias_recuperadas_v7_parte_0_a_5.parquet",
+    "bytes": 880944,
+    "sha256": "61e09e911080302be063ed29e9bf6fb76e58bef993a80a063b3aec852635090e",
+    "migrated": false
+  },
+  {
+    "path": "parquet/02_evidencias_recuperadas_v7_parte_0_a_50.parquet",
+    "bytes": 69739591,
+    "sha256": "cf6e51ec5c86ecf4185ed85e3b79f279f6d529d27e7221ed56473a0d8fb90a1c",
+    "migrated": false
+  },
+  {
+    "path": "parquet/03_alinhamentos_nli_v6_parte_0_a_3.parquet",
+    "bytes": 157786,
+    "sha256": "7e961b717ed523c941f9e17904283535f1eddaea63bec00d4d86c4b6be8f37fe",
+    "migrated": false
+  },
+  {
+    "path": "parquet/03_alinhamentos_nli_v7_parte_0_a_10.parquet",
+    "bytes": 1949596,
+    "sha256": "c229a64d4a0b8374d2c84e018da14503855f60f6f8f8b9ed525a2cb4fabbbf88",
+    "migrated": false
+  },
+  {
+    "path": "parquet/03_alinhamentos_nli_v7_parte_0_a_3.parquet",
+    "bytes": 549857,
+    "sha256": "9f5f2c5236791c83fa5e9b1f118f833bc71058c22807605d1cb6f8470f8c64b6",
+    "migrated": false
+  },
+  {
+    "path": "parquet/03_alinhamentos_nli_v7_parte_0_a_5.parquet",
+    "bytes": 970141,
+    "sha256": "b568781de8352765457cde407638d08a016f0581496349ac6c91f9084f86c868",
+    "migrated": false
+  },
+  {
+    "path": "parquet/03_alinhamentos_nli_v7_parte_0_a_50.parquet",
+    "bytes": 75224620,
+    "sha256": "421b5719380785fab0e0385e3f7a21869623042a6921af0511646a5cecf9d52c",
+    "migrated": false
+  },
+  {
+    "path": "parquet/04_taxonomy_confusion_v7_parte_0_a_3.csv",
+    "bytes": 232,
+    "sha256": "72a95b9546dd707539cf1e6f52278ca3f9e0187008e7ffae0051992e695e9fd5",
+    "migrated": false
+  },
+  {
+    "path": "parquet/04_taxonomy_v7_parte_0_a_10.parquet",
+    "bytes": 726075,
+    "sha256": "194f2f2bf0aae3234d2ea67749bf92957af8286fd25f6eea24a1c7ee6782fb59",
+    "migrated": false
+  },
+  {
+    "path": "parquet/04_taxonomy_v7_parte_0_a_3.parquet",
+    "bytes": 279245,
+    "sha256": "60126949768b11265fb3908e5a1eb9fe342a92fe5c8753e0488986a324b90c9a",
+    "migrated": false
+  },
+  {
+    "path": "parquet/04_taxonomy_v7_parte_0_a_50.parquet",
+    "bytes": 3669560,
+    "sha256": "f4403b1a4af147f2fa03f0f16b814fa857603e185d67e2b486167dccb5580766",
+    "migrated": false
+  },
+  {
+    "path": "parquet/05_spatial_metrics_v7.parquet",
+    "bytes": 75241133,
+    "sha256": "115d02338259c10638419e5a64e048d13547682b600dae8d521fa9275cd60350",
+    "migrated": false
+  },
+  {
+    "path": "parquet/05_taxonomy_v6_parte_0_a_3.parquet",
+    "bytes": 159300,
+    "sha256": "693b2981de2b50c4c4f68a6bb5e5dcc5e847ccfa96680a4ad1512d1b2292f883",
+    "migrated": false
+  },
+  {
+    "path": "parquet/06_auditoria_qwen_completa.csv",
+    "bytes": 929081,
+    "sha256": "500fe5d0f5c125e74716b30976d66098cb0f5f2f4c3212ebe478169d62b54284",
+    "migrated": false
+  },
+  {
+    "path": "parquet/06_auditoria_qwen_completa.parquet",
+    "bytes": 138167,
+    "sha256": "777df95b857b4e1e38f2bcb2b5a17e045b4508cc1dcb89506464d0460db4b355",
+    "migrated": false
+  },
+  {
+    "path": "pipeline/01_extract_claims.py",
+    "bytes": 5366,
+    "sha256": "dc933b16a9eaaf8bb9d85224b8fdafda49329cbfd490724b5bed5b3962fcac74",
+    "migrated": false
+  },
+  {
+    "path": "pipeline/01_extract_claims_v7_melhorado_novo.py",
+    "bytes": 11390,
+    "sha256": "7569e6652cfd0472a4982c429ab3ac3e3a6af1426812c47338fbd82ad7307b69",
+    "migrated": true
+  },
+  {
+    "path": "pipeline/02_retrieve_evidence.py",
+    "bytes": 5680,
+    "sha256": "5eedc5a5738ade76faf0df26b8db54e499d5ce3e7833736ccde673a9bb371073",
+    "migrated": false
+  },
+  {
+    "path": "pipeline/02_retrieve_evidence_v7_melhorado_novo.py",
+    "bytes": 16952,
+    "sha256": "9ef21ea7d5e60ddb673be10e8860477e3f766001afeaf88b6d4197991bf651eb",
+    "migrated": true
+  },
+  {
+    "path": "pipeline/03_compute_nli.py",
+    "bytes": 3552,
+    "sha256": "8a5922cfe53f417707f49aa92696e82d9c1aed7e749d04bf591b8119747ee935",
+    "migrated": false
+  },
+  {
+    "path": "pipeline/03_compute_nli_v7_melhorado_novo.py",
+    "bytes": 31041,
+    "sha256": "1c2e6ab680a93577d67ae6d640035f05dd64e7e128d4440cbcccdb0baa744a01",
+    "migrated": true
+  },
+  {
+    "path": "pipeline/04_classify_factual_status.py",
+    "bytes": 199,
+    "sha256": "1668475da47374dff1b7771420dfa5b98ae092394b78d4e1da1b7d8b881263f7",
+    "migrated": false
+  },
+  {
+    "path": "pipeline/04_classify_factual_status_melhorado_novo.py",
+    "bytes": 26583,
+    "sha256": "44cb3bd160ad39f5ac0b65fd384faed59cebc2a3729fdb8ee9730eb627b3dc37",
+    "migrated": true
+  },
+  {
+    "path": "pipeline/05_classify_error_taxonomy.py",
+    "bytes": 5993,
+    "sha256": "847c6196b567a0475fe6fbfe812bcbc54d42dfc65204fb7171749f5a51fb2c3e",
+    "migrated": false
+  },
+  {
+    "path": "pipeline/05_plot_positional_metrics.py",
+    "bytes": 12313,
+    "sha256": "51de000d6a7e1339c0602b39e38db0d9cbac6a33ad632d51b400e8e98ef99dc2",
+    "migrated": false
+  },
+  {
+    "path": "pipeline/06_audit_qwen.py",
+    "bytes": 12168,
+    "sha256": "48d4496c7582646e03e093bc5e1b81134188d1b8a3b607c0e33615100ebcfb01",
+    "migrated": true
+  },
+  {
+    "path": "pipeline/auditoria_por_etapas.py",
+    "bytes": 4736,
+    "sha256": "7af77f2c1db823d84378263837435ffd1e2a2d105d69691b909378a68470ab00",
+    "migrated": false
+  },
+  {
+    "path": "pipeline/diagnostico_mentiras_v2.py",
+    "bytes": 5603,
+    "sha256": "a3dcfa2091366f30faeadc6ab8e4e49d34f84bb4f0beeff9b90312740e935723",
+    "migrated": false
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 227,
+    "sha256": "84155871bad4c77b296e6e7fa1a738f05620011751fd0132341f855fbfb642e3",
+    "migrated": false
+  },
+  {
+    "path": "setup.py",
+    "bytes": 1096,
+    "sha256": "3008b247ed4ce1df2efc9612b253fce1095771a26e6c21c49cd70e375bc05206",
+    "migrated": false
+  }
+]

@@ -1,0 +1,3576 @@
+[
+  {
+    "lot_documents": 3,
+    "nli_details": [
+      {
+        "retrieval_score": 0.7505152217122514,
+        "cross_score": 6.139422416687012,
+        "ent": 0.9743545651435852,
+        "contr": 0.001529271830804646,
+        "neut": 0.024116218090057373,
+        "expanded_ent": 0.9909404516220093,
+        "expanded_contr": 0.0022015280555933714,
+        "expanded_neut": 0.006858003791421652,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6039495696080548,
+        "cross_score": 5.196903705596924,
+        "ent": 0.7621454000473022,
+        "contr": 0.0005998900160193443,
+        "neut": 0.23725472390651703,
+        "expanded_ent": 0.9968262910842896,
+        "expanded_contr": 0.0007749796815915033,
+        "expanded_neut": 0.002876381389796734,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5644276790272722,
+        "cross_score": 4.9800124168396,
+        "ent": 0.937044084072113,
+        "contr": 0.0017496664077043533,
+        "neut": 0.061206310987472534,
+        "expanded_ent": 0.9433028042316436,
+        "expanded_contr": 0.0039082919247448444,
+        "expanded_neut": 0.14951163530349731,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.43655445623608413,
+        "cross_score": 4.4367265701293945,
+        "ent": 0.006501335650682449,
+        "contr": 0.009906094521284103,
+        "neut": 0.9835926294326782,
+        "expanded_ent": 0.9834483861923218,
+        "expanded_contr": 0.0029825376463122662,
+        "expanded_neut": 0.015807803720235825,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5856775039578244,
+        "cross_score": 4.44542121887207,
+        "ent": 0.6473488807678223,
+        "contr": 0.0011088164756074548,
+        "neut": 0.3515423536300659,
+        "expanded_ent": 0.999014139175415,
+        "expanded_contr": 0.000512202427489683,
+        "expanded_neut": 0.0008309269906021655,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.4112470645218356,
+        "cross_score": 3.8880724906921387,
+        "ent": 0.7287220358848572,
+        "contr": 0.0006195324240252376,
+        "neut": 0.2706584334373474,
+        "expanded_ent": 0.9969521760940552,
+        "expanded_contr": 0.0004225714292260818,
+        "expanded_neut": 0.0027334573678672314,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.43351509797321425,
+        "cross_score": 3.6157779693603516,
+        "ent": 0.9474391341209412,
+        "contr": 0.00037211901508271694,
+        "neut": 0.052188675850629807,
+        "expanded_ent": 0.9913991689682007,
+        "expanded_contr": 0.0007831670518498868,
+        "expanded_neut": 0.008134338073432446,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6518171145709514,
+        "cross_score": 3.5169081687927246,
+        "ent": 0.8834384083747864,
+        "contr": 0.0003970266552641988,
+        "neut": 0.11616457253694534,
+        "expanded_ent": 0.8948344588279724,
+        "expanded_contr": 0.023548316583037375,
+        "expanded_neut": 0.41628947854042053,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.7505152217122514,
+        "cross_score": 6.139422416687012,
+        "ent": 0.9909404516220093,
+        "contr": 0.0022015280555933714,
+        "neut": 0.006858003791421652,
+        "expanded_ent": 0.9909404516220093,
+        "expanded_contr": 0.0022015280555933714,
+        "expanded_neut": 0.006858003791421652,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6039495696080548,
+        "cross_score": 5.196903705596924,
+        "ent": 0.9968262910842896,
+        "contr": 0.00029736809665337205,
+        "neut": 0.002876381389796734,
+        "expanded_ent": 0.9968262910842896,
+        "expanded_contr": 0.0007749796815915033,
+        "expanded_neut": 0.002876381389796734,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5644276790272722,
+        "cross_score": 4.9800124168396,
+        "ent": 0.8465800285339355,
+        "contr": 0.0039082919247448444,
+        "neut": 0.14951163530349731,
+        "expanded_ent": 0.9433028042316436,
+        "expanded_contr": 0.0039082919247448444,
+        "expanded_neut": 0.14951163530349731,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.43655445623608413,
+        "cross_score": 4.4367265701293945,
+        "ent": 0.9834483861923218,
+        "contr": 0.0007438789471052587,
+        "neut": 0.015807803720235825,
+        "expanded_ent": 0.9834483861923218,
+        "expanded_contr": 0.0029825376463122662,
+        "expanded_neut": 0.015807803720235825,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.9968262910842896,
+    "contradiction_score": 0.0071366717712953685,
+    "status": "SUPPORTED",
+    "current_baseline_compatible": false
+  },
+  {
+    "lot_documents": 3,
+    "nli_details": [
+      {
+        "retrieval_score": 0.6098127136769077,
+        "cross_score": 1.7774405479431152,
+        "ent": 0.9525431990623474,
+        "contr": 0.0016899437177926302,
+        "neut": 0.045766785740852356,
+        "expanded_ent": 0.9591957330703735,
+        "expanded_contr": 0.0005363296950235963,
+        "expanded_neut": 0.040267977863550186,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5314303112193244,
+        "cross_score": -1.6764583587646484,
+        "ent": 0.0003109248646069318,
+        "contr": 0.0002526480529922992,
+        "neut": 0.9994364380836487,
+        "expanded_ent": 0.9816185832023621,
+        "expanded_contr": 0.0006030784570612013,
+        "expanded_neut": 0.017778340727090836,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.2600208702041577,
+        "cross_score": -1.7631185054779053,
+        "ent": 0.001588340732268989,
+        "contr": 0.0009650455322116613,
+        "neut": 0.9974466562271118,
+        "expanded_ent": 0.947275686264038,
+        "expanded_contr": 0.0008117919642245397,
+        "expanded_neut": 0.9964058995246887,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5656123240631841,
+        "cross_score": -2.7398438453674316,
+        "ent": 0.003903791308403015,
+        "contr": 0.0002200478920713067,
+        "neut": 0.995876133441925,
+        "expanded_ent": 0.9455750286579132,
+        "expanded_contr": 0.0011049589433241634,
+        "expanded_neut": 0.9975041747093201,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.26642703284804226,
+        "cross_score": -4.513808250427246,
+        "ent": 0.001103870919905603,
+        "contr": 0.00033220608020201325,
+        "neut": 0.9985639452934265,
+        "expanded_ent": 0.9488358587026595,
+        "expanded_contr": 0.00041767134389374404,
+        "expanded_neut": 0.9993927478790283,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.48797445415257784,
+        "cross_score": -6.4139790534973145,
+        "ent": 0.0006258438224904239,
+        "contr": 0.0007615025388076901,
+        "neut": 0.998612642288208,
+        "expanded_ent": 0.9478054642677307,
+        "expanded_contr": 0.0001839779557485599,
+        "expanded_neut": 0.9990106821060181,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.24748450277540923,
+        "cross_score": -7.246740341186523,
+        "ent": 0.002393942791968584,
+        "contr": 0.00040668659494258463,
+        "neut": 0.9971994161605835,
+        "expanded_ent": 0.9486415803432464,
+        "expanded_contr": 0.003869154956191778,
+        "expanded_neut": 0.7449355125427246,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.3566035241736055,
+        "cross_score": -7.584783554077148,
+        "ent": 0.0037435514386743307,
+        "contr": 0.0011421993840485811,
+        "neut": 0.9951142072677612,
+        "expanded_ent": 0.9355726093053818,
+        "expanded_contr": 0.001148470933549106,
+        "expanded_neut": 0.9846433401107788,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6098127136769077,
+        "cross_score": 1.7774405479431152,
+        "ent": 0.9591957330703735,
+        "contr": 0.0005363296950235963,
+        "neut": 0.040267977863550186,
+        "expanded_ent": 0.9591957330703735,
+        "expanded_contr": 0.0005363296950235963,
+        "expanded_neut": 0.040267977863550186,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5314303112193244,
+        "cross_score": -1.6764583587646484,
+        "ent": 0.9816185832023621,
+        "contr": 0.0006030784570612013,
+        "neut": 0.017778340727090836,
+        "expanded_ent": 0.9816185832023621,
+        "expanded_contr": 0.0006030784570612013,
+        "expanded_neut": 0.017778340727090836,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.2600208702041577,
+        "cross_score": -1.7631185054779053,
+        "ent": 0.0032791534904390574,
+        "contr": 0.00031490501714870334,
+        "neut": 0.9964058995246887,
+        "expanded_ent": 0.947275686264038,
+        "expanded_contr": 0.0008117919642245397,
+        "expanded_neut": 0.9964058995246887,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5656123240631841,
+        "cross_score": -2.7398438453674316,
+        "ent": 0.0021163036581128836,
+        "contr": 0.00037958758184686303,
+        "neut": 0.9975041747093201,
+        "expanded_ent": 0.9455750286579132,
+        "expanded_contr": 0.0011049589433241634,
+        "expanded_neut": 0.9975041747093201,
+        "structural_types": [
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.9816185832023621,
+    "contradiction_score": 0.0012284981086850167,
+    "status": "SUPPORTED",
+    "current_baseline_compatible": false
+  },
+  {
+    "lot_documents": 3,
+    "nli_details": [
+      {
+        "retrieval_score": 0.49478335190032774,
+        "cross_score": 3.102792978286743,
+        "ent": 0.00017899577505886555,
+        "contr": 0.0007526501431129873,
+        "neut": 0.9990684390068054,
+        "expanded_ent": 0.9488649070262909,
+        "expanded_contr": 0.0004129925859160721,
+        "expanded_neut": 0.9997729659080505,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.5810821019799663,
+        "cross_score": 2.8684349060058594,
+        "ent": 0.0003867103368975222,
+        "contr": 0.0007426449446938932,
+        "neut": 0.9988706707954407,
+        "expanded_ent": 0.9438309967517853,
+        "expanded_contr": 0.001290422584861517,
+        "expanded_neut": 0.998685896396637,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.621673417615539,
+        "cross_score": 2.8475728034973145,
+        "ent": 0.0002306443639099598,
+        "contr": 0.002157131675630808,
+        "neut": 0.9976122379302979,
+        "expanded_ent": 0.9471675336360931,
+        "expanded_contr": 0.000662216090131551,
+        "expanded_neut": 0.9996100068092346,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.6424794827184281,
+        "cross_score": 2.782111167907715,
+        "ent": 0.0006456841947510839,
+        "contr": 0.0003336791996844113,
+        "neut": 0.9990205764770508,
+        "expanded_ent": 0.9468743324279785,
+        "expanded_contr": 0.000648524152347818,
+        "expanded_neut": 0.9984502792358398,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.5657232366200182,
+        "cross_score": 2.8026113510131836,
+        "ent": 0.00012534475536085665,
+        "contr": 0.00045702658826485276,
+        "neut": 0.9994176626205444,
+        "expanded_ent": 0.9486509799957275,
+        "expanded_contr": 0.0004756846581585705,
+        "expanded_neut": 0.9997569918632507,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.6207538819300494,
+        "cross_score": 2.559000253677368,
+        "ent": 0.0002082619903376326,
+        "contr": 0.002366740023717284,
+        "neut": 0.9974250793457031,
+        "expanded_ent": 0.9494493842124938,
+        "expanded_contr": 0.00023603308509336784,
+        "expanded_neut": 0.9994506239891052,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.44189057765570744,
+        "cross_score": 2.535853862762451,
+        "ent": 0.0002242290647700429,
+        "contr": 0.003680875990539789,
+        "neut": 0.9960948824882507,
+        "expanded_ent": 0.9494415700435638,
+        "expanded_contr": 0.00025554589083185417,
+        "expanded_neut": 0.999645471572876,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.4273028532350107,
+        "cross_score": 2.261605978012085,
+        "ent": 0.000321555562550202,
+        "contr": 0.0004590732860378921,
+        "neut": 0.9992192983627319,
+        "expanded_ent": 0.9492466121912002,
+        "expanded_contr": 0.0003051567473448813,
+        "expanded_neut": 0.9996115565299988,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.49478335190032774,
+        "cross_score": 3.102792978286743,
+        "ent": 0.00010440772894071415,
+        "contr": 0.00012266996782273054,
+        "neut": 0.9997729659080505,
+        "expanded_ent": 0.9488649070262909,
+        "expanded_contr": 0.0004129925859160721,
+        "expanded_neut": 0.9997729659080505,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.5810821019799663,
+        "cross_score": 2.8684349060058594,
+        "ent": 0.000996866961941123,
+        "contr": 0.00031729330657981336,
+        "neut": 0.998685896396637,
+        "expanded_ent": 0.9438309967517853,
+        "expanded_contr": 0.001290422584861517,
+        "expanded_neut": 0.998685896396637,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.621673417615539,
+        "cross_score": 2.8475728034973145,
+        "ent": 0.00017235214181710035,
+        "contr": 0.00021768327860627323,
+        "neut": 0.9996100068092346,
+        "expanded_ent": 0.9471675336360931,
+        "expanded_contr": 0.000662216090131551,
+        "expanded_neut": 0.9996100068092346,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6424794827184281,
+        "cross_score": 2.782111167907715,
+        "ent": 0.0013518277555704117,
+        "contr": 0.00019782046729233116,
+        "neut": 0.9984502792358398,
+        "expanded_ent": 0.9468743324279785,
+        "expanded_contr": 0.000648524152347818,
+        "expanded_neut": 0.9984502792358398,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.6159414557926356,
+    "contradiction_score": 0.002310743950656615,
+    "status": "NOT_SUPPORTED",
+    "current_baseline_compatible": false
+  },
+  {
+    "lot_documents": 3,
+    "nli_details": [
+      {
+        "retrieval_score": 0.6548731576012209,
+        "cross_score": 7.84556770324707,
+        "ent": 0.023130374029278755,
+        "contr": 0.9123910069465637,
+        "neut": 0.06447853893041611,
+        "expanded_ent": 0.9446845531463622,
+        "expanded_contr": 0.18137621879577637,
+        "expanded_neut": 0.8002355694770813,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6151107759978534,
+        "cross_score": 7.591322898864746,
+        "ent": 0.0012955395504832268,
+        "contr": 0.9966263771057129,
+        "neut": 0.0020780402701348066,
+        "expanded_ent": 0.948698204755783,
+        "expanded_contr": 0.99915611743927,
+        "expanded_neut": 0.000701617042068392,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5615720167628963,
+        "cross_score": 6.427929878234863,
+        "ent": 0.000671149929985404,
+        "contr": 0.9939663410186768,
+        "neut": 0.005362560041248798,
+        "expanded_ent": 0.9488437861204146,
+        "expanded_contr": 0.9940521121025085,
+        "expanded_neut": 0.003391912905499339,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5141081959941376,
+        "cross_score": 5.577545166015625,
+        "ent": 0.002320935484021902,
+        "contr": 0.2410372644662857,
+        "neut": 0.7566418051719666,
+        "expanded_ent": 0.905958890914917,
+        "expanded_contr": 0.19365176558494568,
+        "expanded_neut": 0.7164921164512634,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.47659019864000984,
+        "cross_score": 5.522130966186523,
+        "ent": 0.0001879416813608259,
+        "contr": 0.9992995262145996,
+        "neut": 0.000512528873514384,
+        "expanded_ent": 0.9470767647027969,
+        "expanded_contr": 0.9997339844703674,
+        "expanded_neut": 0.00016529088316019624,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5122175314641112,
+        "cross_score": 5.564281463623047,
+        "ent": 0.0017857605125755072,
+        "contr": 0.21620531380176544,
+        "neut": 0.7820088863372803,
+        "expanded_ent": 0.9487606614828109,
+        "expanded_contr": 0.09449195861816406,
+        "expanded_neut": 0.9014869332313538,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5971293275107705,
+        "cross_score": 4.88844633102417,
+        "ent": 0.0023739191237837076,
+        "contr": 0.36491110920906067,
+        "neut": 0.6327150464057922,
+        "expanded_ent": 0.9465348124504089,
+        "expanded_contr": 0.9961236119270325,
+        "expanded_neut": 0.0024393233470618725,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5650894897950205,
+        "cross_score": 4.874505043029785,
+        "ent": 0.0018672937294468284,
+        "contr": 0.7567468285560608,
+        "neut": 0.24138586223125458,
+        "expanded_ent": 0.9491052776575089,
+        "expanded_contr": 0.9986091256141663,
+        "expanded_neut": 0.000851641409099102,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6548731576012209,
+        "cross_score": 7.84556770324707,
+        "ent": 0.018388153985142708,
+        "contr": 0.18137621879577637,
+        "neut": 0.8002355694770813,
+        "expanded_ent": 0.9446845531463622,
+        "expanded_contr": 0.18137621879577637,
+        "expanded_neut": 0.8002355694770813,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6151107759978534,
+        "cross_score": 7.591322898864746,
+        "ent": 0.00014221511082723737,
+        "contr": 0.99915611743927,
+        "neut": 0.000701617042068392,
+        "expanded_ent": 0.948698204755783,
+        "expanded_contr": 0.99915611743927,
+        "expanded_neut": 0.000701617042068392,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5615720167628963,
+        "cross_score": 6.427929878234863,
+        "ent": 0.0025559894274920225,
+        "contr": 0.9940521121025085,
+        "neut": 0.003391912905499339,
+        "expanded_ent": 0.9488437861204146,
+        "expanded_contr": 0.9940521121025085,
+        "expanded_neut": 0.003391912905499339,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5141081959941376,
+        "cross_score": 5.577545166015625,
+        "ent": 0.0898560881614685,
+        "contr": 0.19365176558494568,
+        "neut": 0.7164921164512634,
+        "expanded_ent": 0.905958890914917,
+        "expanded_contr": 0.19365176558494568,
+        "expanded_neut": 0.7164921164512634,
+        "structural_types": [
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.6203229099512101,
+    "contradiction_score": 0.9994733095169068,
+    "status": "CONTRADICTED",
+    "current_baseline_compatible": false
+  },
+  {
+    "lot_documents": 3,
+    "nli_details": [
+      {
+        "retrieval_score": 0.6919808946279177,
+        "cross_score": 8.644551277160645,
+        "ent": 0.0041738757863640785,
+        "contr": 0.00020283728372305632,
+        "neut": 0.9956232905387878,
+        "expanded_ent": 0.6648991972208023,
+        "expanded_contr": 0.009636766323819755,
+        "expanded_neut": 0.9797500371932983,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.7278293373931264,
+        "cross_score": 8.559484481811523,
+        "ent": 0.010409095324575901,
+        "contr": 0.0007372025866061449,
+        "neut": 0.9888536930084229,
+        "expanded_ent": 0.65891954600811,
+        "expanded_contr": 0.03672277890145779,
+        "expanded_neut": 0.8893067240715027,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.7176644843666099,
+        "cross_score": 8.505061149597168,
+        "ent": 0.005626282189041376,
+        "contr": 0.000364276027539745,
+        "neut": 0.9940094947814941,
+        "expanded_ent": 0.9305460035800933,
+        "expanded_contr": 0.0014746246743015945,
+        "expanded_neut": 0.9940371513366699,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.7270090805661873,
+        "cross_score": 8.476762771606445,
+        "ent": 0.0017056070500984788,
+        "contr": 0.00029898894717916846,
+        "neut": 0.9979953765869141,
+        "expanded_ent": 0.9241023153066634,
+        "expanded_contr": 0.0007187871407950296,
+        "expanded_neut": 0.9989259839057922,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.8152551574541306,
+        "cross_score": 8.385465621948242,
+        "ent": 0.0010372744873166084,
+        "contr": 0.0002442536351736635,
+        "neut": 0.9987185001373291,
+        "expanded_ent": 0.7667982816696166,
+        "expanded_contr": 0.0018045263539534062,
+        "expanded_neut": 0.9897341728210449,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.6884984789552533,
+        "cross_score": 7.586372375488281,
+        "ent": 0.0010890749981626868,
+        "contr": 0.0007815680000931025,
+        "neut": 0.9981294274330139,
+        "expanded_ent": 0.9331083714962005,
+        "expanded_contr": 0.003657563589513302,
+        "expanded_neut": 0.7248920798301697,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.6719078714499792,
+        "cross_score": 7.343163967132568,
+        "ent": 0.0011614919640123844,
+        "contr": 0.000713585817720741,
+        "neut": 0.998124897480011,
+        "expanded_ent": 0.9434351354837417,
+        "expanded_contr": 0.001174755278043449,
+        "expanded_neut": 0.9556083083152771,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.7292711734724648,
+        "cross_score": 7.000603675842285,
+        "ent": 0.0005415342748165131,
+        "contr": 0.00022435662685893476,
+        "neut": 0.9992340803146362,
+        "expanded_ent": 0.9486399948596954,
+        "expanded_contr": 0.000680347322486341,
+        "expanded_neut": 0.08074115961790085,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6919808946279177,
+        "cross_score": 8.644551277160645,
+        "ent": 0.019345039501786232,
+        "contr": 0.000904877029825002,
+        "neut": 0.9797500371932983,
+        "expanded_ent": 0.6648991972208023,
+        "expanded_contr": 0.009636766323819755,
+        "expanded_neut": 0.9797500371932983,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.7278293373931264,
+        "cross_score": 8.559484481811523,
+        "ent": 0.08361665904521942,
+        "contr": 0.027076605707406998,
+        "neut": 0.8893067240715027,
+        "expanded_ent": 0.65891954600811,
+        "expanded_contr": 0.03672277890145779,
+        "expanded_neut": 0.8893067240715027,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.7176644843666099,
+        "cross_score": 8.505061149597168,
+        "ent": 0.005657153204083443,
+        "contr": 0.000305679626762867,
+        "neut": 0.9940371513366699,
+        "expanded_ent": 0.9305460035800933,
+        "expanded_contr": 0.0014746246743015945,
+        "expanded_neut": 0.9940371513366699,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.7270090805661873,
+        "cross_score": 8.476762771606445,
+        "ent": 0.000666310777887702,
+        "contr": 0.00040762568823993206,
+        "neut": 0.9989259839057922,
+        "expanded_ent": 0.9241023153066634,
+        "expanded_contr": 0.0007187871407950296,
+        "expanded_neut": 0.9989259839057922,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.4575635355710983,
+    "contradiction_score": 0.030935074985027313,
+    "status": "NOT_SUPPORTED",
+    "current_baseline_compatible": false
+  },
+  {
+    "lot_documents": 3,
+    "nli_details": [
+      {
+        "retrieval_score": 0.610155610607149,
+        "cross_score": 1.6804516315460205,
+        "ent": 0.0032223949674516916,
+        "contr": 0.506044328212738,
+        "neut": 0.49073326587677,
+        "expanded_ent": 0.9493161469697952,
+        "expanded_contr": 0.9871081709861755,
+        "expanded_neut": 0.011691306717693806,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6051788187731667,
+        "cross_score": -0.002255655825138092,
+        "ent": 0.002427963539958,
+        "contr": 0.16640523076057434,
+        "neut": 0.8311668634414673,
+        "expanded_ent": 0.9490644514560699,
+        "expanded_contr": 0.0010780522134155035,
+        "expanded_neut": 0.9975085258483887,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.5530609917156641,
+        "cross_score": -0.3061249256134033,
+        "ent": 0.002015389734879136,
+        "contr": 0.0750386044383049,
+        "neut": 0.9229459762573242,
+        "expanded_ent": 0.9487722694873809,
+        "expanded_contr": 0.0021889691706746817,
+        "expanded_neut": 0.9652370810508728,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6354174529672417,
+        "cross_score": -0.2773318886756897,
+        "ent": 0.0010098156053572893,
+        "contr": 0.003245097352191806,
+        "neut": 0.9957451224327087,
+        "expanded_ent": 0.9338265389204025,
+        "expanded_contr": 0.0063971996307373045,
+        "expanded_neut": 0.967144250869751,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5831670846213174,
+        "cross_score": -0.9015895128250122,
+        "ent": 0.0025702903512865305,
+        "contr": 0.09658416360616684,
+        "neut": 0.9008455276489258,
+        "expanded_ent": 0.9487566977739333,
+        "expanded_contr": 0.004031237680464983,
+        "expanded_neut": 0.994329035282135,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5898310610872998,
+        "cross_score": -0.9860787391662598,
+        "ent": 0.003187748370692134,
+        "contr": 0.4804159104824066,
+        "neut": 0.5163963437080383,
+        "expanded_ent": 0.9481039315462112,
+        "expanded_contr": 0.05031149461865425,
+        "expanded_neut": 0.9432752132415771,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6118879871467966,
+        "cross_score": -1.031869649887085,
+        "ent": 0.0033033136278390884,
+        "contr": 0.06353089213371277,
+        "neut": 0.9331657886505127,
+        "expanded_ent": 0.8466822475194931,
+        "expanded_contr": 0.049523476511240005,
+        "expanded_neut": 0.928100049495697,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6174952134415574,
+        "cross_score": -1.0840363502502441,
+        "ent": 0.0030151642858982086,
+        "contr": 0.6185102462768555,
+        "neut": 0.3784746527671814,
+        "expanded_ent": 0.9483400553464889,
+        "expanded_contr": 0.001975709106773138,
+        "expanded_neut": 0.9966674447059631,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.610155610607149,
+        "cross_score": 1.6804516315460205,
+        "ent": 0.0012005144963040948,
+        "contr": 0.9871081709861755,
+        "neut": 0.011691306717693806,
+        "expanded_ent": 0.9493161469697952,
+        "expanded_contr": 0.9871081709861755,
+        "expanded_neut": 0.011691306717693806,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6051788187731667,
+        "cross_score": -0.002255655825138092,
+        "ent": 0.0014134293887764215,
+        "contr": 0.0010780522134155035,
+        "neut": 0.9975085258483887,
+        "expanded_ent": 0.9490644514560699,
+        "expanded_contr": 0.0010780522134155035,
+        "expanded_neut": 0.9975085258483887,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.5530609917156641,
+        "cross_score": -0.3061249256134033,
+        "ent": 0.03257393464446068,
+        "contr": 0.0021889691706746817,
+        "neut": 0.9652370810508728,
+        "expanded_ent": 0.9487722694873809,
+        "expanded_contr": 0.0021889691706746817,
+        "expanded_neut": 0.9652370810508728,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.6354174529672417,
+        "cross_score": -0.2773318886756897,
+        "ent": 0.027669114992022514,
+        "contr": 0.005186618305742741,
+        "neut": 0.967144250869751,
+        "expanded_ent": 0.9338265389204025,
+        "expanded_contr": 0.0063971996307373045,
+        "expanded_neut": 0.967144250869751,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.6281028522923588,
+    "contradiction_score": 0.9871081709861755,
+    "status": "CONTRADICTED",
+    "current_baseline_compatible": false
+  },
+  {
+    "lot_documents": 5,
+    "nli_details": [
+      {
+        "retrieval_score": 0.7621616840362548,
+        "cross_score": 0.9975685932218676,
+        "ent": 0.9743545651435852,
+        "contr": 0.001529271830804646,
+        "neut": 0.024116218090057373,
+        "expanded_ent": 0.9909404516220093,
+        "expanded_contr": 0.0022015280555933714,
+        "expanded_neut": 0.006858003791421652,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6414247274398803,
+        "cross_score": 0.9948634227910165,
+        "ent": 0.937044084072113,
+        "contr": 0.0017496664077043533,
+        "neut": 0.061206310987472534,
+        "expanded_ent": 0.8465800285339355,
+        "expanded_contr": 0.0039082919247448444,
+        "expanded_neut": 0.14951163530349731,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5833505511283874,
+        "cross_score": 0.9903890309956742,
+        "ent": 0.8025957345962524,
+        "contr": 0.0005546530592255294,
+        "neut": 0.19684959948062897,
+        "expanded_ent": 0.9984149932861328,
+        "expanded_contr": 0.0005936087109148502,
+        "expanded_neut": 0.0009914083639159799,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5921767592430114,
+        "cross_score": 0.9883500138271959,
+        "ent": 0.6473488807678223,
+        "contr": 0.0011088164756074548,
+        "neut": 0.3515423536300659,
+        "expanded_ent": 0.999014139175415,
+        "expanded_contr": 0.00015498195716645569,
+        "expanded_neut": 0.0008309269906021655,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.125,
+        "cross_score": 0.9875960925191881,
+        "ent": 0.9198831915855408,
+        "contr": 0.0007038363837637007,
+        "neut": 0.07941306382417679,
+        "expanded_ent": 0.9974769949913025,
+        "expanded_contr": 0.0003779449325520545,
+        "expanded_neut": 0.002145168138667941,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.39751474261283876,
+        "cross_score": 0.9858632732958397,
+        "ent": 0.006501335650682449,
+        "contr": 0.009906094521284103,
+        "neut": 0.9835926294326782,
+        "expanded_ent": 0.9834483861923218,
+        "expanded_contr": 0.0007438789471052587,
+        "expanded_neut": 0.015807803720235825,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.642096996307373,
+        "cross_score": 0.9854156976878669,
+        "ent": 0.7621454000473022,
+        "contr": 0.0005998900160193443,
+        "neut": 0.23725472390651703,
+        "expanded_ent": 0.9968262910842896,
+        "expanded_contr": 0.00029736809665337205,
+        "expanded_neut": 0.002876381389796734,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.640472149848938,
+        "cross_score": 0.9796017304276549,
+        "ent": 0.9253116250038147,
+        "contr": 0.0011502632405608892,
+        "neut": 0.07353811711072922,
+        "expanded_ent": 0.7773964405059814,
+        "expanded_contr": 0.0006461486336775124,
+        "expanded_neut": 0.22195744514465332,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.7479494929313659,
+        "cross_score": 0.9995502279603805,
+        "ent": 0.9984149932861328,
+        "contr": 0.0005936087109148502,
+        "neut": 0.0009914083639159799,
+        "expanded_ent": 0.9984149932861328,
+        "expanded_contr": 0.0005936087109148502,
+        "expanded_neut": 0.0009914083639159799,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.1875,
+        "cross_score": 0.9987031837645365,
+        "ent": 0.9821354150772095,
+        "contr": 0.0010448541725054383,
+        "neut": 0.016819780692458153,
+        "expanded_ent": 0.9821354150772095,
+        "expanded_contr": 0.0010448541725054383,
+        "expanded_neut": 0.016819780692458153,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6941620111465454,
+        "cross_score": 0.9971700631652668,
+        "ent": 0.4636540412902832,
+        "contr": 0.0007025214727036655,
+        "neut": 0.535643458366394,
+        "expanded_ent": 0.4636540412902832,
+        "expanded_contr": 0.0007025214727036655,
+        "expanded_neut": 0.535643458366394,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.7450788497924805,
+        "cross_score": 0.9967661769555118,
+        "ent": 0.9909404516220093,
+        "contr": 0.0022015280555933714,
+        "neut": 0.006858003791421652,
+        "expanded_ent": 0.9909404516220093,
+        "expanded_contr": 0.0022015280555933714,
+        "expanded_neut": 0.006858003791421652,
+        "structural_types": [
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.9681809479155759,
+    "contradiction_score": 0.007056337807785176,
+    "status": "SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 5,
+    "nli_details": [
+      {
+        "retrieval_score": 0.5636250972747803,
+        "cross_score": 0.8492951114105193,
+        "ent": 0.9525431990623474,
+        "contr": 0.0016899437177926302,
+        "neut": 0.045766785740852356,
+        "expanded_ent": 0.9591957330703735,
+        "expanded_contr": 0.0005363296950235963,
+        "expanded_neut": 0.040267977863550186,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.0625,
+        "cross_score": 0.5041166030999392,
+        "ent": 0.0003109248646069318,
+        "contr": 0.0002526480529922992,
+        "neut": 0.9994364380836487,
+        "expanded_ent": 0.9816185832023621,
+        "expanded_contr": 0.0006030784570612013,
+        "expanded_neut": 0.017778340727090836,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.513858413696289,
+        "cross_score": 0.21656202389185222,
+        "ent": 0.003903791308403015,
+        "contr": 0.0002200478920713067,
+        "neut": 0.995876133441925,
+        "expanded_ent": 0.0021163036581128836,
+        "expanded_contr": 0.00037958758184686303,
+        "expanded_neut": 0.9975041747093201,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.2683608829975128,
+        "cross_score": 0.11863169546262443,
+        "ent": 0.001588340732268989,
+        "contr": 0.0009650455322116613,
+        "neut": 0.9974466562271118,
+        "expanded_ent": 0.0032791534904390574,
+        "expanded_contr": 0.00031490501714870334,
+        "expanded_neut": 0.9964058995246887,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.03333333333333333,
+        "cross_score": 0.03675667527797054,
+        "ent": 0.0033687094692140818,
+        "contr": 0.0010025459341704845,
+        "neut": 0.9956287145614624,
+        "expanded_ent": 0.9794514775276184,
+        "expanded_contr": 0.0004643674474209547,
+        "expanded_neut": 0.020084142684936523,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.2121092915534973,
+        "cross_score": 0.0138075553266863,
+        "ent": 0.001103870919905603,
+        "contr": 0.00033220608020201325,
+        "neut": 0.9985639452934265,
+        "expanded_ent": 0.00047935129259712994,
+        "expanded_contr": 0.00012790889013558626,
+        "expanded_neut": 0.9993927478790283,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.31534835100173947,
+        "cross_score": 0.007111511701511318,
+        "ent": 0.0037435514386743307,
+        "contr": 0.0011421993840485811,
+        "neut": 0.9951142072677612,
+        "expanded_ent": 0.014666693285107613,
+        "expanded_contr": 0.0006899141008034348,
+        "expanded_neut": 0.9846433401107788,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.041666666666666664,
+        "cross_score": 0.0032601085603772228,
+        "ent": 0.061939727514982224,
+        "contr": 0.0003760172112379223,
+        "neut": 0.9376842975616455,
+        "expanded_ent": 0.95790696144104,
+        "expanded_contr": 0.0008885734132491052,
+        "expanded_neut": 0.04120446741580963,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.3652945637702942,
+        "cross_score": 0.9869614818088417,
+        "ent": 0.9794514775276184,
+        "contr": 0.0004643674474209547,
+        "neut": 0.020084142684936523,
+        "expanded_ent": 0.9794514775276184,
+        "expanded_contr": 0.0004643674474209547,
+        "expanded_neut": 0.020084142684936523,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.352870625257492,
+        "cross_score": 0.8954053514846715,
+        "ent": 0.9982025623321533,
+        "contr": 0.00029728663503192365,
+        "neut": 0.0015001388965174556,
+        "expanded_ent": 0.9982025623321533,
+        "expanded_contr": 0.00029728663503192365,
+        "expanded_neut": 0.0015001388965174556,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.34589322209358214,
+        "cross_score": 0.8915738802503772,
+        "ent": 0.0021163036581128836,
+        "contr": 0.00037958758184686303,
+        "neut": 0.9975041747093201,
+        "expanded_ent": 0.0021163036581128836,
+        "expanded_contr": 0.00037958758184686303,
+        "expanded_neut": 0.9975041747093201,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.2875401139259338,
+        "cross_score": 0.16293671674139137,
+        "ent": 0.8724088668823242,
+        "contr": 0.002324807457625866,
+        "neut": 0.12526635825634003,
+        "expanded_ent": 0.8724088668823242,
+        "expanded_contr": 0.002324807457625866,
+        "expanded_neut": 0.12526635825634003,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.9123340866364098,
+    "contradiction_score": 0.001970366733783402,
+    "status": "SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 5,
+    "nli_details": [
+      {
+        "retrieval_score": 0.5935024499893189,
+        "cross_score": 0.9176546648355495,
+        "ent": 0.0017149295890703797,
+        "contr": 0.05732302740216255,
+        "neut": 0.9409620761871338,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6139208185261693,
+        "cross_score": 0.6787438387609352,
+        "ent": 0.0014086611336097121,
+        "contr": 0.014895186759531498,
+        "neut": 0.9836962223052979,
+        "expanded_ent": 0.16747908294200897,
+        "expanded_contr": 0.024669162929058075,
+        "expanded_neut": 0.8078517317771912,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6341582854588826,
+        "cross_score": 0.6784671333030564,
+        "ent": 0.0004308862262405455,
+        "contr": 0.0015248231356963515,
+        "neut": 0.9980442523956299,
+        "expanded_ent": 0.0033539817668497562,
+        "expanded_contr": 0.0008889930322766304,
+        "expanded_neut": 0.9957570433616638,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.08448275862068966,
+        "cross_score": 0.6238470590312921,
+        "ent": 0.0009796344675123692,
+        "contr": 0.16943341493606567,
+        "neut": 0.829586923122406,
+        "expanded_ent": 0.013311542570590973,
+        "expanded_contr": 0.9403501749038696,
+        "expanded_neut": 0.0463382788002491,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5115373274375652,
+        "cross_score": 0.5927862845419938,
+        "ent": 0.0034101088531315327,
+        "contr": 0.2316427081823349,
+        "neut": 0.7649471759796143,
+        "expanded_ent": 0.009990180842578411,
+        "expanded_contr": 0.005820489022880793,
+        "expanded_neut": 0.9841893315315247,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.524178926150004,
+        "cross_score": 0.48035728260659777,
+        "ent": 0.0007582896505482495,
+        "contr": 0.046575043350458145,
+        "neut": 0.9526666402816772,
+        "expanded_ent": 0.0004199064278509468,
+        "expanded_contr": 0.0007232335046865046,
+        "expanded_neut": 0.9988569021224976,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.47800230185190834,
+        "cross_score": 0.4637578016317093,
+        "ent": 0.0005956150125712156,
+        "contr": 0.028372004628181458,
+        "neut": 0.9710323810577393,
+        "expanded_ent": 0.0012289573205634952,
+        "expanded_contr": 0.005837068427354097,
+        "expanded_neut": 0.992933988571167,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.041666666666666664,
+        "cross_score": 0.4412588282437899,
+        "ent": 0.002180154202505946,
+        "contr": 0.20720793306827545,
+        "neut": 0.7906118631362915,
+        "expanded_ent": 0.0570685938000679,
+        "expanded_contr": 0.3975714147090912,
+        "expanded_neut": 0.5453599691390991,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.769365592660575,
+        "cross_score": 0.9846292253301283,
+        "ent": 0.00875264871865511,
+        "contr": 0.5730555653572083,
+        "neut": 0.4181917607784271,
+        "expanded_ent": 0.00875264871865511,
+        "expanded_contr": 0.5730555653572083,
+        "expanded_neut": 0.4181917607784271,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6933906172883921,
+        "cross_score": 0.9683718872119901,
+        "ent": 0.16747908294200897,
+        "contr": 0.024669162929058075,
+        "neut": 0.8078517317771912,
+        "expanded_ent": 0.16747908294200897,
+        "expanded_contr": 0.024669162929058075,
+        "expanded_neut": 0.8078517317771912,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.7901592890421549,
+        "cross_score": 0.9300510708768434,
+        "ent": 0.019838539883494377,
+        "contr": 0.004348685033619404,
+        "neut": 0.9758127927780151,
+        "expanded_ent": 0.019838539883494377,
+        "expanded_contr": 0.004348685033619404,
+        "expanded_neut": 0.9758127927780151,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.22931034482758622,
+        "cross_score": 0.9164929599492793,
+        "ent": 0.24144631624221802,
+        "contr": 0.0205977912992239,
+        "neut": 0.7379558682441711,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": [
+          "ENTITY"
+        ]
+      }
+    ],
+    "support_score": 0.21750369748129128,
+    "contradiction_score": 0.5564909410370883,
+    "status": "NOT_SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 5,
+    "nli_details": [
+      {
+        "retrieval_score": 0.6390516485486711,
+        "cross_score": 0.9992758839491868,
+        "ent": 0.9550601243972778,
+        "contr": 0.003847264451906085,
+        "neut": 0.04109266400337219,
+        "expanded_ent": 0.9975614547729492,
+        "expanded_contr": 0.0006317173829302192,
+        "expanded_neut": 0.0018068775534629822,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.40843898313386096,
+        "cross_score": 0.9980101544767677,
+        "ent": 0.0448153093457222,
+        "contr": 0.0114011624827981,
+        "neut": 0.9437835812568665,
+        "expanded_ent": 0.2567065954208374,
+        "expanded_contr": 0.34267762303352356,
+        "expanded_neut": 0.40061575174331665,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6274579967771257,
+        "cross_score": 0.9966883523556364,
+        "ent": 0.9737958908081055,
+        "contr": 0.001648134901188314,
+        "neut": 0.024555891752243042,
+        "expanded_ent": 0.9336822032928467,
+        "expanded_contr": 0.0008165156468749046,
+        "expanded_neut": 0.06550127267837524,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6714973688125611,
+        "cross_score": 0.9965190569583922,
+        "ent": 0.9835371375083923,
+        "contr": 0.001536718918941915,
+        "neut": 0.014926105737686157,
+        "expanded_ent": 0.9980897307395935,
+        "expanded_contr": 0.0005915141082368791,
+        "expanded_neut": 0.0013188165612518787,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.40249356627464294,
+        "cross_score": 0.9961557776851973,
+        "ent": 0.00029560315306298435,
+        "contr": 0.9990713596343994,
+        "neut": 0.0006330314790830016,
+        "expanded_ent": 0.9900548458099365,
+        "expanded_contr": 0.0005733793368563056,
+        "expanded_neut": 0.009371848776936531,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6428009510040283,
+        "cross_score": 0.9949487119229861,
+        "ent": 0.9034703373908997,
+        "contr": 0.011191246099770069,
+        "neut": 0.08533851057291031,
+        "expanded_ent": 0.9704588055610657,
+        "expanded_contr": 0.00997813232243061,
+        "expanded_neut": 0.019563011825084686,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.4503932952880859,
+        "cross_score": 0.9947516666603737,
+        "ent": 0.15301555395126343,
+        "contr": 0.002256825566291809,
+        "neut": 0.8447275757789612,
+        "expanded_ent": 0.25655654072761536,
+        "expanded_contr": 0.7044209241867065,
+        "expanded_neut": 0.03902250528335571,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.599963104724884,
+        "cross_score": 0.9934216096908526,
+        "ent": 0.005197454243898392,
+        "contr": 0.9834510087966919,
+        "neut": 0.01135156862437725,
+        "expanded_ent": 0.0023492395412176847,
+        "expanded_contr": 0.9940043091773987,
+        "expanded_neut": 0.0036464673466980457,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5492530005318778,
+        "cross_score": 0.999549492923727,
+        "ent": 0.9975614547729492,
+        "contr": 0.0006317173829302192,
+        "neut": 0.0018068775534629822,
+        "expanded_ent": 0.9975614547729492,
+        "expanded_contr": 0.0006317173829302192,
+        "expanded_neut": 0.0018068775534629822,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.544144286428179,
+        "cross_score": 0.9988505549109815,
+        "ent": 0.9990177154541016,
+        "contr": 0.00036559486761689186,
+        "neut": 0.0006167152314446867,
+        "expanded_ent": 0.9990177154541016,
+        "expanded_contr": 0.00036559486761689186,
+        "expanded_neut": 0.0006167152314446867,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.49610685961587087,
+        "cross_score": 0.9987781792977373,
+        "ent": 0.2567065954208374,
+        "contr": 0.34267762303352356,
+        "neut": 0.40061575174331665,
+        "expanded_ent": 0.2567065954208374,
+        "expanded_contr": 0.34267762303352356,
+        "expanded_neut": 0.40061575174331665,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5728999853134156,
+        "cross_score": 0.9983607489921636,
+        "ent": 0.9858819246292114,
+        "contr": 0.006598420441150665,
+        "neut": 0.007519702892750502,
+        "expanded_ent": 0.9858819246292114,
+        "expanded_contr": 0.006598420441150665,
+        "expanded_neut": 0.007519702892750502,
+        "structural_types": [
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.9542743130728586,
+    "contradiction_score": 0.9382337295791452,
+    "status": "NOT_SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 5,
+    "nli_details": [
+      {
+        "retrieval_score": 0.49572378396987915,
+        "cross_score": 0.9971940688336381,
+        "ent": 0.028067078441381454,
+        "contr": 0.3068947196006775,
+        "neut": 0.6650381684303284,
+        "expanded_ent": 0.8179658651351929,
+        "expanded_contr": 0.003468560753390193,
+        "expanded_neut": 0.17856550216674805,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6630991021792093,
+        "cross_score": 0.9916329134844869,
+        "ent": 0.0004727056948468089,
+        "contr": 0.0020931034814566374,
+        "neut": 0.9974341988563538,
+        "expanded_ent": 0.02511616237461567,
+        "expanded_contr": 0.0024949824437499046,
+        "expanded_neut": 0.9723888635635376,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.41820068359374996,
+        "cross_score": 0.9882487723914204,
+        "ent": 0.0020403882954269648,
+        "contr": 0.9307001233100891,
+        "neut": 0.06725951284170151,
+        "expanded_ent": 0.32968440651893616,
+        "expanded_contr": 0.007742723450064659,
+        "expanded_neut": 0.6625728607177734,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5868311405181884,
+        "cross_score": 0.9811187800955612,
+        "ent": 0.00017815497994888574,
+        "contr": 0.0039649056270718575,
+        "neut": 0.9958569407463074,
+        "expanded_ent": 0.1449083536863327,
+        "expanded_contr": 0.001298253540880978,
+        "expanded_neut": 0.8537933826446533,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5521667542280975,
+        "cross_score": 0.9618323510105956,
+        "ent": 0.00019635162607301027,
+        "contr": 8.299419278046116e-05,
+        "neut": 0.9997206330299377,
+        "expanded_ent": 0.0001610538747627288,
+        "expanded_contr": 9.956725261872634e-05,
+        "expanded_neut": 0.9997393488883972,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5123533681586937,
+        "cross_score": 0.8754369172647202,
+        "ent": 0.00023761489137541503,
+        "contr": 0.0006595716113224626,
+        "neut": 0.9991028308868408,
+        "expanded_ent": 0.00017886511341203004,
+        "expanded_contr": 0.00011758093751268461,
+        "expanded_neut": 0.9997034668922424,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.3949921409289042,
+        "cross_score": 0.8597859650416801,
+        "ent": 0.0002032120682997629,
+        "contr": 0.0006896341219544411,
+        "neut": 0.9991071820259094,
+        "expanded_ent": 0.08603619039058685,
+        "expanded_contr": 0.035875868052244186,
+        "expanded_neut": 0.8780879974365234,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.08333333333333333,
+        "cross_score": 0.6345000604411739,
+        "ent": 0.00017819252389017493,
+        "contr": 0.001892385887913406,
+        "neut": 0.9979294538497925,
+        "expanded_ent": 0.33017829060554504,
+        "expanded_contr": 0.13286250829696655,
+        "expanded_neut": 0.536959171295166,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6238111972808837,
+        "cross_score": 0.9974768986320273,
+        "ent": 0.1449083536863327,
+        "contr": 0.001298253540880978,
+        "neut": 0.8537933826446533,
+        "expanded_ent": 0.1449083536863327,
+        "expanded_contr": 0.001298253540880978,
+        "expanded_neut": 0.8537933826446533,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.628227686882019,
+        "cross_score": 0.9832263418803183,
+        "ent": 0.0007063032244332135,
+        "contr": 0.0006212170119397342,
+        "neut": 0.9986724853515625,
+        "expanded_ent": 0.0007063032244332135,
+        "expanded_contr": 0.0006212170119397342,
+        "expanded_neut": 0.9986724853515625,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.423171732823054,
+        "cross_score": 0.9512933559089997,
+        "ent": 0.0002332610310986638,
+        "contr": 0.00011261771578574553,
+        "neut": 0.9996541738510132,
+        "expanded_ent": 0.0002332610310986638,
+        "expanded_contr": 0.00011261771578574553,
+        "expanded_neut": 0.9996541738510132,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.2,
+        "cross_score": 0.924335642170474,
+        "ent": 0.32968440651893616,
+        "contr": 0.007742723450064659,
+        "neut": 0.6625728607177734,
+        "expanded_ent": 0.32968440651893616,
+        "expanded_contr": 0.007742723450064659,
+        "expanded_neut": 0.6625728607177734,
+        "structural_types": [
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.5457079006986668,
+    "contradiction_score": 0.6504343375427075,
+    "status": "CONTRADICTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 5,
+    "nli_details": [
+      {
+        "retrieval_score": 0.6412894838734676,
+        "cross_score": 0.9995416081044904,
+        "ent": 0.0012955395504832268,
+        "contr": 0.9966263771057129,
+        "neut": 0.0020780402701348066,
+        "expanded_ent": 0.00014221511082723737,
+        "expanded_contr": 0.99915611743927,
+        "expanded_neut": 0.000701617042068392,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6946253607147618,
+        "cross_score": 0.9994733249163144,
+        "ent": 0.023130374029278755,
+        "contr": 0.9123910069465637,
+        "neut": 0.06447853893041611,
+        "expanded_ent": 0.018388153985142708,
+        "expanded_contr": 0.18137621879577637,
+        "expanded_neut": 0.8002355694770813,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5968272987164949,
+        "cross_score": 0.9983686669497044,
+        "ent": 0.000671149929985404,
+        "contr": 0.9939663410186768,
+        "neut": 0.005362560041248798,
+        "expanded_ent": 0.0025559894274920225,
+        "expanded_contr": 0.9940521121025085,
+        "expanded_neut": 0.003391912905499339,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6216829789312261,
+        "cross_score": 0.9976809118633941,
+        "ent": 0.0023739191237837076,
+        "contr": 0.36491110920906067,
+        "neut": 0.6327150464057922,
+        "expanded_ent": 0.0014370515709742904,
+        "expanded_contr": 0.9961236119270325,
+        "expanded_neut": 0.0024393233470618725,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5408143269388299,
+        "cross_score": 0.996353657440161,
+        "ent": 0.0017857605125755072,
+        "contr": 0.21620531380176544,
+        "neut": 0.7820088863372803,
+        "expanded_ent": 0.004021139349788427,
+        "expanded_contr": 0.09449195861816406,
+        "expanded_neut": 0.9014869332313538,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.4884641728903118,
+        "cross_score": 0.9962006427688878,
+        "ent": 0.0001879416813608259,
+        "contr": 0.9992995262145996,
+        "neut": 0.000512528873514384,
+        "expanded_ent": 0.00010066903632832691,
+        "expanded_contr": 0.9997339844703674,
+        "expanded_neut": 0.00016529088316019624,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5684023486940484,
+        "cross_score": 0.9953306829881271,
+        "ent": 0.0018672937294468284,
+        "contr": 0.7567468285560608,
+        "neut": 0.24138586223125458,
+        "expanded_ent": 0.0005392099847085774,
+        "expanded_contr": 0.9986091256141663,
+        "expanded_neut": 0.000851641409099102,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5423598515359979,
+        "cross_score": 0.9951024460311568,
+        "ent": 0.002320935484021902,
+        "contr": 0.2410372644662857,
+        "neut": 0.7566418051719666,
+        "expanded_ent": 0.0898560881614685,
+        "expanded_contr": 0.19365176558494568,
+        "expanded_neut": 0.7164921164512634,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6728037307136937,
+        "cross_score": 0.9997388154084266,
+        "ent": 0.0009446703479625285,
+        "contr": 0.9981129169464111,
+        "neut": 0.0009424975141882896,
+        "expanded_ent": 0.0009446703479625285,
+        "expanded_contr": 0.9981129169464111,
+        "expanded_neut": 0.0009424975141882896,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6935209199001915,
+        "cross_score": 0.9996870340802282,
+        "ent": 0.0001657004759181291,
+        "contr": 0.9993042945861816,
+        "neut": 0.0005299935583025217,
+        "expanded_ent": 0.0001657004759181291,
+        "expanded_contr": 0.9993042945861816,
+        "expanded_neut": 0.0005299935583025217,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6285699053814536,
+        "cross_score": 0.9996856273772696,
+        "ent": 0.0010879397159442306,
+        "contr": 0.9973904490470886,
+        "neut": 0.0015217054169625044,
+        "expanded_ent": 0.0010879397159442306,
+        "expanded_contr": 0.9973904490470886,
+        "expanded_neut": 0.0015217054169625044,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.625993453828912,
+        "cross_score": 0.999168808501852,
+        "ent": 0.0001238845579791814,
+        "contr": 0.9996912479400635,
+        "neut": 0.00018480868311598897,
+        "expanded_ent": 0.0001238845579791814,
+        "expanded_contr": 0.9996912479400635,
+        "expanded_neut": 0.00018480868311598897,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.06007816053658781,
+    "contradiction_score": 0.9625273714178194,
+    "status": "CONTRADICTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 10,
+    "nli_details": [
+      {
+        "retrieval_score": 0.7505152217122514,
+        "cross_score": 6.139422416687012,
+        "ent": 0.9743545651435852,
+        "contr": 0.001529271830804646,
+        "neut": 0.024116218090057373,
+        "expanded_ent": 0.9909404516220093,
+        "expanded_contr": 0.0022015280555933714,
+        "expanded_neut": 0.006858003791421652,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6039495696080548,
+        "cross_score": 5.196903705596924,
+        "ent": 0.7621454000473022,
+        "contr": 0.0005998900160193443,
+        "neut": 0.23725472390651703,
+        "expanded_ent": 0.9968262910842896,
+        "expanded_contr": 0.00029736809665337205,
+        "expanded_neut": 0.002876381389796734,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5644276790272722,
+        "cross_score": 4.9800124168396,
+        "ent": 0.937044084072113,
+        "contr": 0.0017496664077043533,
+        "neut": 0.061206310987472534,
+        "expanded_ent": 0.8465800285339355,
+        "expanded_contr": 0.0039082919247448444,
+        "expanded_neut": 0.14951163530349731,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.43736015308113874,
+        "cross_score": 4.4367265701293945,
+        "ent": 0.006501335650682449,
+        "contr": 0.009906094521284103,
+        "neut": 0.9835926294326782,
+        "expanded_ent": 0.9834483861923218,
+        "expanded_contr": 0.0007438789471052587,
+        "expanded_neut": 0.015807803720235825,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5856775039578244,
+        "cross_score": 4.44542121887207,
+        "ent": 0.6473488807678223,
+        "contr": 0.0011088164756074548,
+        "neut": 0.3515423536300659,
+        "expanded_ent": 0.999014139175415,
+        "expanded_contr": 0.00015498195716645569,
+        "expanded_neut": 0.0008309269906021655,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.41971453612141446,
+        "cross_score": 3.8880724906921387,
+        "ent": 0.7287220358848572,
+        "contr": 0.0006195324240252376,
+        "neut": 0.2706584334373474,
+        "expanded_ent": 0.9969521760940552,
+        "expanded_contr": 0.0003143465146422386,
+        "expanded_neut": 0.0027334573678672314,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.440900286314355,
+        "cross_score": 3.6157779693603516,
+        "ent": 0.9474391341209412,
+        "contr": 0.00037211901508271694,
+        "neut": 0.052188675850629807,
+        "expanded_ent": 0.9913991689682007,
+        "expanded_contr": 0.00046647648559883237,
+        "expanded_neut": 0.008134338073432446,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6518171145709514,
+        "cross_score": 3.5169081687927246,
+        "ent": 0.8834384083747864,
+        "contr": 0.0003970266552641988,
+        "neut": 0.11616457253694534,
+        "expanded_ent": 0.5833635330200195,
+        "expanded_contr": 0.00034691387554630637,
+        "expanded_neut": 0.41628947854042053,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.7505152217122514,
+        "cross_score": 6.139422416687012,
+        "ent": 0.9909404516220093,
+        "contr": 0.0022015280555933714,
+        "neut": 0.006858003791421652,
+        "expanded_ent": 0.9909404516220093,
+        "expanded_contr": 0.0022015280555933714,
+        "expanded_neut": 0.006858003791421652,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6039495696080548,
+        "cross_score": 5.196903705596924,
+        "ent": 0.9968262910842896,
+        "contr": 0.00029736809665337205,
+        "neut": 0.002876381389796734,
+        "expanded_ent": 0.9968262910842896,
+        "expanded_contr": 0.00029736809665337205,
+        "expanded_neut": 0.002876381389796734,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5644276790272722,
+        "cross_score": 4.9800124168396,
+        "ent": 0.8465800285339355,
+        "contr": 0.0039082919247448444,
+        "neut": 0.14951163530349731,
+        "expanded_ent": 0.8465800285339355,
+        "expanded_contr": 0.0039082919247448444,
+        "expanded_neut": 0.14951163530349731,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.43736015308113874,
+        "cross_score": 4.4367265701293945,
+        "ent": 0.9834483861923218,
+        "contr": 0.0007438789471052587,
+        "neut": 0.015807803720235825,
+        "expanded_ent": 0.9834483861923218,
+        "expanded_contr": 0.0007438789471052587,
+        "expanded_neut": 0.015807803720235825,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.9968262910842896,
+    "contradiction_score": 0.007615540627739392,
+    "status": "SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 10,
+    "nli_details": [
+      {
+        "retrieval_score": 0.6098127136769077,
+        "cross_score": 1.7774405479431152,
+        "ent": 0.9525431990623474,
+        "contr": 0.0016899437177926302,
+        "neut": 0.045766785740852356,
+        "expanded_ent": 0.9591957330703735,
+        "expanded_contr": 0.0005363296950235963,
+        "expanded_neut": 0.040267977863550186,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5314303112193244,
+        "cross_score": -1.6764583587646484,
+        "ent": 0.0003109248646069318,
+        "contr": 0.0002526480529922992,
+        "neut": 0.9994364380836487,
+        "expanded_ent": 0.9816185832023621,
+        "expanded_contr": 0.0006030784570612013,
+        "expanded_neut": 0.017778340727090836,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5656123240631841,
+        "cross_score": -2.7398438453674316,
+        "ent": 0.003903791308403015,
+        "contr": 0.0002200478920713067,
+        "neut": 0.995876133441925,
+        "expanded_ent": 0.0021163036581128836,
+        "expanded_contr": 0.00037958758184686303,
+        "expanded_neut": 0.9975041747093201,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.257310261775893,
+        "cross_score": -4.51380729675293,
+        "ent": 0.001103870919905603,
+        "contr": 0.00033220608020201325,
+        "neut": 0.9985639452934265,
+        "expanded_ent": 0.00047935129259712994,
+        "expanded_contr": 0.00012790889013558626,
+        "expanded_neut": 0.9993927478790283,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.24692779369907294,
+        "cross_score": -5.692956924438477,
+        "ent": 0.0032909144647419453,
+        "contr": 9.447120100958273e-05,
+        "neut": 0.9966146349906921,
+        "expanded_ent": 0.796129047870636,
+        "expanded_contr": 0.0005096685490570962,
+        "expanded_neut": 0.20336133241653442,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.48797445415257784,
+        "cross_score": -6.4139790534973145,
+        "ent": 0.0006258438224904239,
+        "contr": 0.0007615025388076901,
+        "neut": 0.998612642288208,
+        "expanded_ent": 0.0008842808892950416,
+        "expanded_contr": 0.00010497084440430626,
+        "expanded_neut": 0.9990106821060181,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.24794940857384443,
+        "cross_score": -7.246740341186523,
+        "ent": 0.002393942791968584,
+        "contr": 0.00040668659494258463,
+        "neut": 0.9971994161605835,
+        "expanded_ent": 0.2511953115463257,
+        "expanded_contr": 0.003869154956191778,
+        "expanded_neut": 0.7449355125427246,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.35021702357660545,
+        "cross_score": -7.584783554077148,
+        "ent": 0.0037435514386743307,
+        "contr": 0.0011421993840485811,
+        "neut": 0.9951142072677612,
+        "expanded_ent": 0.014666693285107613,
+        "expanded_contr": 0.0006899141008034348,
+        "expanded_neut": 0.9846433401107788,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6098127136769077,
+        "cross_score": 1.7774405479431152,
+        "ent": 0.9591957330703735,
+        "contr": 0.0005363296950235963,
+        "neut": 0.040267977863550186,
+        "expanded_ent": 0.9591957330703735,
+        "expanded_contr": 0.0005363296950235963,
+        "expanded_neut": 0.040267977863550186,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5314303112193244,
+        "cross_score": -1.6764583587646484,
+        "ent": 0.9816185832023621,
+        "contr": 0.0006030784570612013,
+        "neut": 0.017778340727090836,
+        "expanded_ent": 0.9816185832023621,
+        "expanded_contr": 0.0006030784570612013,
+        "expanded_neut": 0.017778340727090836,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5656123240631841,
+        "cross_score": -2.7398438453674316,
+        "ent": 0.0021163036581128836,
+        "contr": 0.00037958758184686303,
+        "neut": 0.9975041747093201,
+        "expanded_ent": 0.0021163036581128836,
+        "expanded_contr": 0.00037958758184686303,
+        "expanded_neut": 0.9975041747093201,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.257310261775893,
+        "cross_score": -4.51380729675293,
+        "ent": 0.00047935129259712994,
+        "contr": 0.00012790889013558626,
+        "neut": 0.9993927478790283,
+        "expanded_ent": 0.00047935129259712994,
+        "expanded_contr": 0.00012790889013558626,
+        "expanded_neut": 0.9993927478790283,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.9591957330703735,
+    "contradiction_score": 0.0014015402121003717,
+    "status": "SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 10,
+    "nli_details": [
+      {
+        "retrieval_score": 0.837158918900647,
+        "cross_score": 9.431581497192383,
+        "ent": 0.9781549572944641,
+        "contr": 0.0015151974512264132,
+        "neut": 0.020329922437667847,
+        "expanded_ent": 0.9981302618980408,
+        "expanded_contr": 0.0003970240068156272,
+        "expanded_neut": 0.0014727180823683739,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.7761052630705534,
+        "cross_score": 6.8895463943481445,
+        "ent": 0.5707474946975708,
+        "contr": 0.0010764746693894267,
+        "neut": 0.42817598581314087,
+        "expanded_ent": 0.9958789348602295,
+        "expanded_contr": 0.00019041523046325892,
+        "expanded_neut": 0.0039306930266320705,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.77317824340437,
+        "cross_score": 6.693096160888672,
+        "ent": 0.9937554597854614,
+        "contr": 0.0006117119919508696,
+        "neut": 0.0056327576749026775,
+        "expanded_ent": 0.988588809967041,
+        "expanded_contr": 0.0008316098828800023,
+        "expanded_neut": 0.010579505935311317,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6999601785538294,
+        "cross_score": 6.0749077796936035,
+        "ent": 0.9961347579956055,
+        "contr": 0.0005015511414967477,
+        "neut": 0.0033637008164077997,
+        "expanded_ent": 0.06934253871440887,
+        "expanded_contr": 0.8997716307640076,
+        "expanded_neut": 0.03088584914803505,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.7719807772207573,
+        "cross_score": 5.576234817504883,
+        "ent": 0.9884485602378845,
+        "contr": 0.0006592029239982367,
+        "neut": 0.010892258957028389,
+        "expanded_ent": 0.997076153755188,
+        "expanded_contr": 0.00014975294470787048,
+        "expanded_neut": 0.0027740467339754105,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6939480752533055,
+        "cross_score": 5.390007495880127,
+        "ent": 0.021930253133177757,
+        "contr": 0.005001906305551529,
+        "neut": 0.9730678796768188,
+        "expanded_ent": 0.49211567640304565,
+        "expanded_contr": 0.0032715671695768833,
+        "expanded_neut": 0.5046127438545227,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.7468539980054576,
+        "cross_score": 5.408141136169434,
+        "ent": 0.9948245286941528,
+        "contr": 0.0010116012999787927,
+        "neut": 0.004163860343396664,
+        "expanded_ent": 0.9963787198066711,
+        "expanded_contr": 0.001068426645360887,
+        "expanded_neut": 0.0025528986006975174,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6068059388454815,
+        "cross_score": 4.966888904571533,
+        "ent": 0.9776681661605835,
+        "contr": 0.0004526441916823387,
+        "neut": 0.021879209205508232,
+        "expanded_ent": 0.9154190421104431,
+        "expanded_contr": 0.004841446410864592,
+        "expanded_neut": 0.07973959296941757,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.837158918900647,
+        "cross_score": 9.431581497192383,
+        "ent": 0.9981302618980408,
+        "contr": 0.0003970240068156272,
+        "neut": 0.0014727180823683739,
+        "expanded_ent": 0.9981302618980408,
+        "expanded_contr": 0.0003970240068156272,
+        "expanded_neut": 0.0014727180823683739,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.7761052630705534,
+        "cross_score": 6.8895463943481445,
+        "ent": 0.9958789348602295,
+        "contr": 0.00019041523046325892,
+        "neut": 0.0039306930266320705,
+        "expanded_ent": 0.9958789348602295,
+        "expanded_contr": 0.00019041523046325892,
+        "expanded_neut": 0.0039306930266320705,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.77317824340437,
+        "cross_score": 6.693096160888672,
+        "ent": 0.988588809967041,
+        "contr": 0.0008316098828800023,
+        "neut": 0.010579505935311317,
+        "expanded_ent": 0.988588809967041,
+        "expanded_contr": 0.0008316098828800023,
+        "expanded_neut": 0.010579505935311317,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6999601785538294,
+        "cross_score": 6.0749077796936035,
+        "ent": 0.06934253871440887,
+        "contr": 0.8997716307640076,
+        "neut": 0.03088584914803505,
+        "expanded_ent": 0.06934253871440887,
+        "expanded_contr": 0.8997716307640076,
+        "expanded_neut": 0.03088584914803505,
+        "structural_types": [
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.9981302618980407,
+    "contradiction_score": 0.8997716307640076,
+    "status": "NOT_SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 10,
+    "nli_details": [
+      {
+        "retrieval_score": 0.5755101943642508,
+        "cross_score": 2.417444944381714,
+        "ent": 0.0017149295890703797,
+        "contr": 0.05732302740216255,
+        "neut": 0.9409620761871338,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.4908013736267824,
+        "cross_score": 0.5394084453582764,
+        "ent": 0.0034101088531315327,
+        "contr": 0.2316427081823349,
+        "neut": 0.7649471759796143,
+        "expanded_ent": 0.009990180842578411,
+        "expanded_contr": 0.005820489022880793,
+        "expanded_neut": 0.9841893315315247,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6320869374597574,
+        "cross_score": 0.5257152915000916,
+        "ent": 0.0004308862262405455,
+        "contr": 0.0015248231356963515,
+        "neut": 0.9980442523956299,
+        "expanded_ent": 0.0033539817668497562,
+        "expanded_contr": 0.0008889930322766304,
+        "expanded_neut": 0.9957570433616638,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.4907440212283389,
+        "cross_score": 0.16926957666873932,
+        "ent": 0.0005956150125712156,
+        "contr": 0.028372004628181458,
+        "neut": 0.9710323810577393,
+        "expanded_ent": 0.0012289573205634952,
+        "expanded_contr": 0.005837068427354097,
+        "expanded_neut": 0.992933988571167,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5603466469047792,
+        "cross_score": 0.0654541403055191,
+        "ent": 0.0006561757763847709,
+        "contr": 0.9496979713439941,
+        "neut": 0.04964591562747955,
+        "expanded_ent": 0.002445140155032277,
+        "expanded_contr": 0.04047517850995064,
+        "expanded_neut": 0.9570796489715576,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5342876777297978,
+        "cross_score": -0.1432511806488037,
+        "ent": 0.00122632656712085,
+        "contr": 0.6587626934051514,
+        "neut": 0.34001094102859497,
+        "expanded_ent": 0.00042158475844189525,
+        "expanded_contr": 0.00028111989377066493,
+        "expanded_neut": 0.9992972612380981,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5391281188680895,
+        "cross_score": -0.16970747709274292,
+        "ent": 0.0007582896505482495,
+        "contr": 0.046575043350458145,
+        "neut": 0.9526666402816772,
+        "expanded_ent": 0.0004199064278509468,
+        "expanded_contr": 0.0007232335046865046,
+        "expanded_neut": 0.9988569021224976,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5568400914269568,
+        "cross_score": -0.21485254168510437,
+        "ent": 0.0005415522609837353,
+        "contr": 0.9710063338279724,
+        "neut": 0.0284520722925663,
+        "expanded_ent": 0.00037335552042350173,
+        "expanded_contr": 0.0012535288697108626,
+        "expanded_neut": 0.9983730316162109,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5755101943642508,
+        "cross_score": 2.417444944381714,
+        "ent": 0.24144631624221802,
+        "contr": 0.0205977912992239,
+        "neut": 0.7379558682441711,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.4908013736267824,
+        "cross_score": 0.5394084453582764,
+        "ent": 0.009990180842578411,
+        "contr": 0.005820489022880793,
+        "neut": 0.9841893315315247,
+        "expanded_ent": 0.009990180842578411,
+        "expanded_contr": 0.005820489022880793,
+        "expanded_neut": 0.9841893315315247,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.6320869374597574,
+        "cross_score": 0.5257152915000916,
+        "ent": 0.0033539817668497562,
+        "contr": 0.0008889930322766304,
+        "neut": 0.9957570433616638,
+        "expanded_ent": 0.0033539817668497562,
+        "expanded_contr": 0.0008889930322766304,
+        "expanded_neut": 0.9957570433616638,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.4907440212283389,
+        "cross_score": 0.16926957666873932,
+        "ent": 0.0012289573205634952,
+        "contr": 0.005837068427354097,
+        "neut": 0.992933988571167,
+        "expanded_ent": 0.0012289573205634952,
+        "expanded_contr": 0.005837068427354097,
+        "expanded_neut": 0.992933988571167,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.24144631624221802,
+    "contradiction_score": 0.630271314284668,
+    "status": "CONTRADICTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 10,
+    "nli_details": [
+      {
+        "retrieval_score": 0.4076318661403254,
+        "cross_score": 6.061821460723877,
+        "ent": 0.005987341981381178,
+        "contr": 0.0012957282597199082,
+        "neut": 0.992716908454895,
+        "expanded_ent": 0.03753570094704628,
+        "expanded_contr": 0.05017577484250069,
+        "expanded_neut": 0.9122885465621948,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5676913617869648,
+        "cross_score": 4.37099552154541,
+        "ent": 0.002707123989239335,
+        "contr": 0.00032748578814789653,
+        "neut": 0.9969653487205505,
+        "expanded_ent": 0.009534434415400028,
+        "expanded_contr": 0.011990425176918507,
+        "expanded_neut": 0.9784750938415527,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5420321078254023,
+        "cross_score": 3.480348825454712,
+        "ent": 0.0014519254909828305,
+        "contr": 0.0002501068520359695,
+        "neut": 0.9982979893684387,
+        "expanded_ent": 0.0011597564443945885,
+        "expanded_contr": 0.0006200871430337429,
+        "expanded_neut": 0.9982201457023621,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.47261256455475353,
+        "cross_score": 2.163146734237671,
+        "ent": 0.0020648816134780645,
+        "contr": 0.004083879292011261,
+        "neut": 0.9938511848449707,
+        "expanded_ent": 0.008008774369955063,
+        "expanded_contr": 0.0005640871240757406,
+        "expanded_neut": 0.9914271831512451,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.39752035409301045,
+        "cross_score": -0.5369577407836914,
+        "ent": 0.002369022462517023,
+        "contr": 0.010548612102866173,
+        "neut": 0.9870823621749878,
+        "expanded_ent": 0.004313527140766382,
+        "expanded_contr": 0.12922272086143494,
+        "expanded_neut": 0.8664637207984924,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.543604572719705,
+        "cross_score": -1.0883698463439941,
+        "ent": 0.0011796343605965376,
+        "contr": 0.0007501287618651986,
+        "neut": 0.9980702996253967,
+        "expanded_ent": 0.002811798360198736,
+        "expanded_contr": 0.0005971089121885598,
+        "expanded_neut": 0.9965910911560059,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.3328099390901514,
+        "cross_score": -1.8965531587600708,
+        "ent": 0.0008402355597354472,
+        "contr": 0.0017591906944289804,
+        "neut": 0.9974006414413452,
+        "expanded_ent": 0.0016001436160877347,
+        "expanded_contr": 0.0012099373852834105,
+        "expanded_neut": 0.9971899390220642,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.46668817067807533,
+        "cross_score": -3.508404016494751,
+        "ent": 0.0016374329570680857,
+        "contr": 0.0025165651459246874,
+        "neut": 0.9958459734916687,
+        "expanded_ent": 0.017890820279717445,
+        "expanded_contr": 0.0004506770346779376,
+        "expanded_neut": 0.9816585183143616,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.4076318661403254,
+        "cross_score": 6.061821460723877,
+        "ent": 0.03753570094704628,
+        "contr": 0.05017577484250069,
+        "neut": 0.9122885465621948,
+        "expanded_ent": 0.03753570094704628,
+        "expanded_contr": 0.05017577484250069,
+        "expanded_neut": 0.9122885465621948,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5676913617869648,
+        "cross_score": 4.37099552154541,
+        "ent": 0.009534434415400028,
+        "contr": 0.011990425176918507,
+        "neut": 0.9784750938415527,
+        "expanded_ent": 0.009534434415400028,
+        "expanded_contr": 0.011990425176918507,
+        "expanded_neut": 0.9784750938415527,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5420321078254023,
+        "cross_score": 3.480348825454712,
+        "ent": 0.0011597564443945885,
+        "contr": 0.0006200871430337429,
+        "neut": 0.9982201457023621,
+        "expanded_ent": 0.0011597564443945885,
+        "expanded_contr": 0.0006200871430337429,
+        "expanded_neut": 0.9982201457023621,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.47261256455475353,
+        "cross_score": 2.163146734237671,
+        "ent": 0.008008774369955063,
+        "contr": 0.0005640871240757406,
+        "neut": 0.9914271831512451,
+        "expanded_ent": 0.008008774369955063,
+        "expanded_contr": 0.0005640871240757406,
+        "expanded_neut": 0.9914271831512451,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.03753570094704628,
+    "contradiction_score": 0.05017577484250069,
+    "status": "NOT_SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 10,
+    "nli_details": [
+      {
+        "retrieval_score": 0.5755101943642508,
+        "cross_score": 2.417444944381714,
+        "ent": 0.0017149295890703797,
+        "contr": 0.05732302740216255,
+        "neut": 0.9409620761871338,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.4908013736267824,
+        "cross_score": 0.5394084453582764,
+        "ent": 0.0034101088531315327,
+        "contr": 0.2316427081823349,
+        "neut": 0.7649471759796143,
+        "expanded_ent": 0.009990180842578411,
+        "expanded_contr": 0.005820489022880793,
+        "expanded_neut": 0.9841893315315247,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6320869374597574,
+        "cross_score": 0.5257152915000916,
+        "ent": 0.0004308862262405455,
+        "contr": 0.0015248231356963515,
+        "neut": 0.9980442523956299,
+        "expanded_ent": 0.0033539817668497562,
+        "expanded_contr": 0.0008889930322766304,
+        "expanded_neut": 0.9957570433616638,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.4907440212283389,
+        "cross_score": 0.16926957666873932,
+        "ent": 0.0005956150125712156,
+        "contr": 0.028372004628181458,
+        "neut": 0.9710323810577393,
+        "expanded_ent": 0.0012289573205634952,
+        "expanded_contr": 0.005837068427354097,
+        "expanded_neut": 0.992933988571167,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5603466469047792,
+        "cross_score": 0.0654541403055191,
+        "ent": 0.0006561757763847709,
+        "contr": 0.9496979713439941,
+        "neut": 0.04964591562747955,
+        "expanded_ent": 0.002445140155032277,
+        "expanded_contr": 0.04047517850995064,
+        "expanded_neut": 0.9570796489715576,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5342876777297978,
+        "cross_score": -0.1432511806488037,
+        "ent": 0.00122632656712085,
+        "contr": 0.6587626934051514,
+        "neut": 0.34001094102859497,
+        "expanded_ent": 0.00042158475844189525,
+        "expanded_contr": 0.00028111989377066493,
+        "expanded_neut": 0.9992972612380981,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5391281188680895,
+        "cross_score": -0.16970747709274292,
+        "ent": 0.0007582896505482495,
+        "contr": 0.046575043350458145,
+        "neut": 0.9526666402816772,
+        "expanded_ent": 0.0004199064278509468,
+        "expanded_contr": 0.0007232335046865046,
+        "expanded_neut": 0.9988569021224976,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5568400914269568,
+        "cross_score": -0.21485254168510437,
+        "ent": 0.0005415522609837353,
+        "contr": 0.9710063338279724,
+        "neut": 0.0284520722925663,
+        "expanded_ent": 0.00037335552042350173,
+        "expanded_contr": 0.0012535288697108626,
+        "expanded_neut": 0.9983730316162109,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5755101943642508,
+        "cross_score": 2.417444944381714,
+        "ent": 0.24144631624221802,
+        "contr": 0.0205977912992239,
+        "neut": 0.7379558682441711,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.4908013736267824,
+        "cross_score": 0.5394084453582764,
+        "ent": 0.009990180842578411,
+        "contr": 0.005820489022880793,
+        "neut": 0.9841893315315247,
+        "expanded_ent": 0.009990180842578411,
+        "expanded_contr": 0.005820489022880793,
+        "expanded_neut": 0.9841893315315247,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.6320869374597574,
+        "cross_score": 0.5257152915000916,
+        "ent": 0.0033539817668497562,
+        "contr": 0.0008889930322766304,
+        "neut": 0.9957570433616638,
+        "expanded_ent": 0.0033539817668497562,
+        "expanded_contr": 0.0008889930322766304,
+        "expanded_neut": 0.9957570433616638,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.4907440212283389,
+        "cross_score": 0.16926957666873932,
+        "ent": 0.0012289573205634952,
+        "contr": 0.005837068427354097,
+        "neut": 0.992933988571167,
+        "expanded_ent": 0.0012289573205634952,
+        "expanded_contr": 0.005837068427354097,
+        "expanded_neut": 0.992933988571167,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.24144631624221802,
+    "contradiction_score": 0.630271314284668,
+    "status": "CONTRADICTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 50,
+    "nli_details": [
+      {
+        "retrieval_score": 0.7505152217122514,
+        "cross_score": 6.139422416687012,
+        "ent": 0.9743545651435852,
+        "contr": 0.001529271830804646,
+        "neut": 0.024116218090057373,
+        "expanded_ent": 0.9909404516220093,
+        "expanded_contr": 0.0022015280555933714,
+        "expanded_neut": 0.006858003791421652,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6039495696080548,
+        "cross_score": 5.196903705596924,
+        "ent": 0.7621454000473022,
+        "contr": 0.0005998900160193443,
+        "neut": 0.23725472390651703,
+        "expanded_ent": 0.9968262910842896,
+        "expanded_contr": 0.00029736809665337205,
+        "expanded_neut": 0.002876381389796734,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5644276790272722,
+        "cross_score": 4.9800124168396,
+        "ent": 0.937044084072113,
+        "contr": 0.0017496664077043533,
+        "neut": 0.061206310987472534,
+        "expanded_ent": 0.8465800285339355,
+        "expanded_contr": 0.0039082919247448444,
+        "expanded_neut": 0.14951163530349731,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5856775039578244,
+        "cross_score": 4.44542121887207,
+        "ent": 0.6473488807678223,
+        "contr": 0.0011088164756074548,
+        "neut": 0.3515423536300659,
+        "expanded_ent": 0.999014139175415,
+        "expanded_contr": 0.00015498195716645569,
+        "expanded_neut": 0.0008309269906021655,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.4446150087092982,
+        "cross_score": 3.6157779693603516,
+        "ent": 0.9474391341209412,
+        "contr": 0.00037211901508271694,
+        "neut": 0.052188675850629807,
+        "expanded_ent": 0.9913991689682007,
+        "expanded_contr": 0.00046647648559883237,
+        "expanded_neut": 0.008134338073432446,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6518171145709514,
+        "cross_score": 3.5169081687927246,
+        "ent": 0.8834384083747864,
+        "contr": 0.0003970266552641988,
+        "neut": 0.11616457253694534,
+        "expanded_ent": 0.5833635330200195,
+        "expanded_contr": 0.00034691387554630637,
+        "expanded_neut": 0.41628947854042053,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6162042028505399,
+        "cross_score": 3.503370761871338,
+        "ent": 0.9253116250038147,
+        "contr": 0.0011502632405608892,
+        "neut": 0.07353811711072922,
+        "expanded_ent": 0.7773964405059814,
+        "expanded_contr": 0.0006461486336775124,
+        "expanded_neut": 0.22195744514465332,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.44671379935376765,
+        "cross_score": 3.3675198554992676,
+        "ent": 0.006348929367959499,
+        "contr": 0.0008077410748228431,
+        "neut": 0.9928433299064636,
+        "expanded_ent": 0.9911455512046814,
+        "expanded_contr": 0.0003732086333911866,
+        "expanded_neut": 0.008481234312057495,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.7505152217122514,
+        "cross_score": 6.139422416687012,
+        "ent": 0.9909404516220093,
+        "contr": 0.0022015280555933714,
+        "neut": 0.006858003791421652,
+        "expanded_ent": 0.9909404516220093,
+        "expanded_contr": 0.0022015280555933714,
+        "expanded_neut": 0.006858003791421652,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6039495696080548,
+        "cross_score": 5.196903705596924,
+        "ent": 0.9968262910842896,
+        "contr": 0.00029736809665337205,
+        "neut": 0.002876381389796734,
+        "expanded_ent": 0.9968262910842896,
+        "expanded_contr": 0.00029736809665337205,
+        "expanded_neut": 0.002876381389796734,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5644276790272722,
+        "cross_score": 4.9800124168396,
+        "ent": 0.8465800285339355,
+        "contr": 0.0039082919247448444,
+        "neut": 0.14951163530349731,
+        "expanded_ent": 0.8465800285339355,
+        "expanded_contr": 0.0039082919247448444,
+        "expanded_neut": 0.14951163530349731,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5856775039578244,
+        "cross_score": 4.44542121887207,
+        "ent": 0.999014139175415,
+        "contr": 0.00015498195716645569,
+        "neut": 0.0008309269906021655,
+        "expanded_ent": 0.999014139175415,
+        "expanded_contr": 0.00015498195716645569,
+        "expanded_neut": 0.0008309269906021655,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.999014139175415,
+    "contradiction_score": 0.0039082919247448444,
+    "status": "SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 50,
+    "nli_details": [
+      {
+        "retrieval_score": 0.6098127136769077,
+        "cross_score": 1.7774405479431152,
+        "ent": 0.9525431990623474,
+        "contr": 0.0016899437177926302,
+        "neut": 0.045766785740852356,
+        "expanded_ent": 0.9591957330703735,
+        "expanded_contr": 0.0005363296950235963,
+        "expanded_neut": 0.040267977863550186,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5314303112193244,
+        "cross_score": -1.6764583587646484,
+        "ent": 0.0003109248646069318,
+        "contr": 0.0002526480529922992,
+        "neut": 0.9994364380836487,
+        "expanded_ent": 0.9816185832023621,
+        "expanded_contr": 0.0006030784570612013,
+        "expanded_neut": 0.017778340727090836,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.26239509754914747,
+        "cross_score": -1.763118028640747,
+        "ent": 0.001588340732268989,
+        "contr": 0.0009650455322116613,
+        "neut": 0.9974466562271118,
+        "expanded_ent": 0.0032791534904390574,
+        "expanded_contr": 0.00031490501714870334,
+        "expanded_neut": 0.9964058995246887,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5656123240631841,
+        "cross_score": -2.7398438453674316,
+        "ent": 0.003903791308403015,
+        "contr": 0.0002200478920713067,
+        "neut": 0.995876133441925,
+        "expanded_ent": 0.0021163036581128836,
+        "expanded_contr": 0.00037958758184686303,
+        "expanded_neut": 0.9975041747093201,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.2759838031727493,
+        "cross_score": -4.51380729675293,
+        "ent": 0.001103870919905603,
+        "contr": 0.00033220608020201325,
+        "neut": 0.9985639452934265,
+        "expanded_ent": 0.00047935129259712994,
+        "expanded_contr": 0.00012790889013558626,
+        "expanded_neut": 0.9993927478790283,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.2695435274417869,
+        "cross_score": -5.692956924438477,
+        "ent": 0.0032909144647419453,
+        "contr": 9.447120100958273e-05,
+        "neut": 0.9966146349906921,
+        "expanded_ent": 0.796129047870636,
+        "expanded_contr": 0.0005096685490570962,
+        "expanded_neut": 0.20336133241653442,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.48797445415257784,
+        "cross_score": -6.4139790534973145,
+        "ent": 0.0006258438224904239,
+        "contr": 0.0007615025388076901,
+        "neut": 0.998612642288208,
+        "expanded_ent": 0.0008842808892950416,
+        "expanded_contr": 0.00010497084440430626,
+        "expanded_neut": 0.9990106821060181,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.26366720108483077,
+        "cross_score": -7.246740341186523,
+        "ent": 0.002393942791968584,
+        "contr": 0.00040668659494258463,
+        "neut": 0.9971994161605835,
+        "expanded_ent": 0.2511953115463257,
+        "expanded_contr": 0.003869154956191778,
+        "expanded_neut": 0.7449355125427246,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6098127136769077,
+        "cross_score": 1.7774405479431152,
+        "ent": 0.9591957330703735,
+        "contr": 0.0005363296950235963,
+        "neut": 0.040267977863550186,
+        "expanded_ent": 0.9591957330703735,
+        "expanded_contr": 0.0005363296950235963,
+        "expanded_neut": 0.040267977863550186,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5314303112193244,
+        "cross_score": -1.6764583587646484,
+        "ent": 0.9816185832023621,
+        "contr": 0.0006030784570612013,
+        "neut": 0.017778340727090836,
+        "expanded_ent": 0.9816185832023621,
+        "expanded_contr": 0.0006030784570612013,
+        "expanded_neut": 0.017778340727090836,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.26239509754914747,
+        "cross_score": -1.763118028640747,
+        "ent": 0.0032791534904390574,
+        "contr": 0.00031490501714870334,
+        "neut": 0.9964058995246887,
+        "expanded_ent": 0.0032791534904390574,
+        "expanded_contr": 0.00031490501714870334,
+        "expanded_neut": 0.9964058995246887,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5656123240631841,
+        "cross_score": -2.7398438453674316,
+        "ent": 0.0021163036581128836,
+        "contr": 0.00037958758184686303,
+        "neut": 0.9975041747093201,
+        "expanded_ent": 0.0021163036581128836,
+        "expanded_contr": 0.00037958758184686303,
+        "expanded_neut": 0.9975041747093201,
+        "structural_types": [
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.9591957330703735,
+    "contradiction_score": 0.0014015402121003717,
+    "status": "SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 50,
+    "nli_details": [
+      {
+        "retrieval_score": 0.837158918900647,
+        "cross_score": 9.431581497192383,
+        "ent": 0.9781549572944641,
+        "contr": 0.0015151974512264132,
+        "neut": 0.020329922437667847,
+        "expanded_ent": 0.9981302618980408,
+        "expanded_contr": 0.0003970240068156272,
+        "expanded_neut": 0.0014727180823683739,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.7761052630705534,
+        "cross_score": 6.8895463943481445,
+        "ent": 0.5707474946975708,
+        "contr": 0.0010764746693894267,
+        "neut": 0.42817598581314087,
+        "expanded_ent": 0.9958789348602295,
+        "expanded_contr": 0.00019041523046325892,
+        "expanded_neut": 0.0039306930266320705,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.77317824340437,
+        "cross_score": 6.693096160888672,
+        "ent": 0.9937554597854614,
+        "contr": 0.0006117119919508696,
+        "neut": 0.0056327576749026775,
+        "expanded_ent": 0.988588809967041,
+        "expanded_contr": 0.0008316098828800023,
+        "expanded_neut": 0.010579505935311317,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6999601785538294,
+        "cross_score": 6.0749077796936035,
+        "ent": 0.9961347579956055,
+        "contr": 0.0005015511414967477,
+        "neut": 0.0033637008164077997,
+        "expanded_ent": 0.06934253871440887,
+        "expanded_contr": 0.8997716307640076,
+        "expanded_neut": 0.03088584914803505,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.7719807772207573,
+        "cross_score": 5.576234817504883,
+        "ent": 0.9884485602378845,
+        "contr": 0.0006592029239982367,
+        "neut": 0.010892258957028389,
+        "expanded_ent": 0.997076153755188,
+        "expanded_contr": 0.00014975294470787048,
+        "expanded_neut": 0.0027740467339754105,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6939480752533055,
+        "cross_score": 5.390007495880127,
+        "ent": 0.021930253133177757,
+        "contr": 0.005001906305551529,
+        "neut": 0.9730678796768188,
+        "expanded_ent": 0.49211567640304565,
+        "expanded_contr": 0.0032715671695768833,
+        "expanded_neut": 0.5046127438545227,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.7468539980054576,
+        "cross_score": 5.408141136169434,
+        "ent": 0.9948245286941528,
+        "contr": 0.0010116012999787927,
+        "neut": 0.004163860343396664,
+        "expanded_ent": 0.9963787198066711,
+        "expanded_contr": 0.001068426645360887,
+        "expanded_neut": 0.0025528986006975174,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6445202026422878,
+        "cross_score": 4.966887950897217,
+        "ent": 0.9776681661605835,
+        "contr": 0.0004526441916823387,
+        "neut": 0.021879209205508232,
+        "expanded_ent": 0.9154190421104431,
+        "expanded_contr": 0.004841446410864592,
+        "expanded_neut": 0.07973959296941757,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.837158918900647,
+        "cross_score": 9.431581497192383,
+        "ent": 0.9981302618980408,
+        "contr": 0.0003970240068156272,
+        "neut": 0.0014727180823683739,
+        "expanded_ent": 0.9981302618980408,
+        "expanded_contr": 0.0003970240068156272,
+        "expanded_neut": 0.0014727180823683739,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.7761052630705534,
+        "cross_score": 6.8895463943481445,
+        "ent": 0.9958789348602295,
+        "contr": 0.00019041523046325892,
+        "neut": 0.0039306930266320705,
+        "expanded_ent": 0.9958789348602295,
+        "expanded_contr": 0.00019041523046325892,
+        "expanded_neut": 0.0039306930266320705,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.77317824340437,
+        "cross_score": 6.693096160888672,
+        "ent": 0.988588809967041,
+        "contr": 0.0008316098828800023,
+        "neut": 0.010579505935311317,
+        "expanded_ent": 0.988588809967041,
+        "expanded_contr": 0.0008316098828800023,
+        "expanded_neut": 0.010579505935311317,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.6999601785538294,
+        "cross_score": 6.0749077796936035,
+        "ent": 0.06934253871440887,
+        "contr": 0.8997716307640076,
+        "neut": 0.03088584914803505,
+        "expanded_ent": 0.06934253871440887,
+        "expanded_contr": 0.8997716307640076,
+        "expanded_neut": 0.03088584914803505,
+        "structural_types": [
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.9981302618980407,
+    "contradiction_score": 0.8997716307640076,
+    "status": "NOT_SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 50,
+    "nli_details": [
+      {
+        "retrieval_score": 0.5953101689249883,
+        "cross_score": 2.417444944381714,
+        "ent": 0.0017149295890703797,
+        "contr": 0.05732302740216255,
+        "neut": 0.9409620761871338,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6320869374597574,
+        "cross_score": 0.5257152915000916,
+        "ent": 0.0004308862262405455,
+        "contr": 0.0015248231356963515,
+        "neut": 0.9980442523956299,
+        "expanded_ent": 0.0033539817668497562,
+        "expanded_contr": 0.0008889930322766304,
+        "expanded_neut": 0.9957570433616638,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5593273389337785,
+        "cross_score": 0.0654541403055191,
+        "ent": 0.0006561757763847709,
+        "contr": 0.9496979713439941,
+        "neut": 0.04964591562747955,
+        "expanded_ent": 0.002445140155032277,
+        "expanded_contr": 0.04047517850995064,
+        "expanded_neut": 0.9570796489715576,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5624878868705754,
+        "cross_score": -0.1432511806488037,
+        "ent": 0.00122632656712085,
+        "contr": 0.6587626934051514,
+        "neut": 0.34001094102859497,
+        "expanded_ent": 0.00042158475844189525,
+        "expanded_contr": 0.00028111989377066493,
+        "expanded_neut": 0.9992972612380981,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5569168837024935,
+        "cross_score": -0.16970747709274292,
+        "ent": 0.0007582896505482495,
+        "contr": 0.046575043350458145,
+        "neut": 0.9526666402816772,
+        "expanded_ent": 0.0004199064278509468,
+        "expanded_contr": 0.0007232335046865046,
+        "expanded_neut": 0.9988569021224976,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5774561876851203,
+        "cross_score": -0.21485254168510437,
+        "ent": 0.0005415522609837353,
+        "contr": 0.9710063338279724,
+        "neut": 0.0284520722925663,
+        "expanded_ent": 0.00037335552042350173,
+        "expanded_contr": 0.0012535288697108626,
+        "expanded_neut": 0.9983730316162109,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5910724005394737,
+        "cross_score": -0.2694021761417389,
+        "ent": 0.0011602919548749924,
+        "contr": 0.008306492120027542,
+        "neut": 0.9905332326889038,
+        "expanded_ent": 0.0013394367415457964,
+        "expanded_contr": 0.0003937386500183493,
+        "expanded_neut": 0.9982668161392212,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6000697268560998,
+        "cross_score": -0.3978073000907898,
+        "ent": 0.0014086611336097121,
+        "contr": 0.014895186759531498,
+        "neut": 0.9836962223052979,
+        "expanded_ent": 0.16747908294200897,
+        "expanded_contr": 0.024669162929058075,
+        "expanded_neut": 0.8078517317771912,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5953101689249883,
+        "cross_score": 2.417444944381714,
+        "ent": 0.24144631624221802,
+        "contr": 0.0205977912992239,
+        "neut": 0.7379558682441711,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.6320869374597574,
+        "cross_score": 0.5257152915000916,
+        "ent": 0.0033539817668497562,
+        "contr": 0.0008889930322766304,
+        "neut": 0.9957570433616638,
+        "expanded_ent": 0.0033539817668497562,
+        "expanded_contr": 0.0008889930322766304,
+        "expanded_neut": 0.9957570433616638,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5593273389337785,
+        "cross_score": 0.0654541403055191,
+        "ent": 0.002445140155032277,
+        "contr": 0.04047517850995064,
+        "neut": 0.9570796489715576,
+        "expanded_ent": 0.002445140155032277,
+        "expanded_contr": 0.04047517850995064,
+        "expanded_neut": 0.9570796489715576,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5624878868705754,
+        "cross_score": -0.1432511806488037,
+        "ent": 0.00042158475844189525,
+        "contr": 0.00028111989377066493,
+        "neut": 0.9992972612380981,
+        "expanded_ent": 0.00042158475844189525,
+        "expanded_contr": 0.00028111989377066493,
+        "expanded_neut": 0.9992972612380981,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.24144631624221802,
+    "contradiction_score": 0.6301829534604044,
+    "status": "CONTRADICTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 50,
+    "nli_details": [
+      {
+        "retrieval_score": 0.41222168604846754,
+        "cross_score": 6.061821460723877,
+        "ent": 0.005987341981381178,
+        "contr": 0.0012957282597199082,
+        "neut": 0.992716908454895,
+        "expanded_ent": 0.03753570094704628,
+        "expanded_contr": 0.05017577484250069,
+        "expanded_neut": 0.9122885465621948,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5676913617869648,
+        "cross_score": 4.37099552154541,
+        "ent": 0.002707123989239335,
+        "contr": 0.00032748578814789653,
+        "neut": 0.9969653487205505,
+        "expanded_ent": 0.009534434415400028,
+        "expanded_contr": 0.011990425176918507,
+        "expanded_neut": 0.9784750938415527,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5420321078254023,
+        "cross_score": 3.480348825454712,
+        "ent": 0.0014519254909828305,
+        "contr": 0.0002501068520359695,
+        "neut": 0.9982979893684387,
+        "expanded_ent": 0.0011597564443945885,
+        "expanded_contr": 0.0006200871430337429,
+        "expanded_neut": 0.9982201457023621,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.47261256455475353,
+        "cross_score": 2.163146734237671,
+        "ent": 0.0020648816134780645,
+        "contr": 0.004083879292011261,
+        "neut": 0.9938511848449707,
+        "expanded_ent": 0.008008774369955063,
+        "expanded_contr": 0.0005640871240757406,
+        "expanded_neut": 0.9914271831512451,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.40989081829875235,
+        "cross_score": -0.5369577407836914,
+        "ent": 0.002369022462517023,
+        "contr": 0.010548612102866173,
+        "neut": 0.9870823621749878,
+        "expanded_ent": 0.004313527140766382,
+        "expanded_contr": 0.12922272086143494,
+        "expanded_neut": 0.8664637207984924,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.38118116331818197,
+        "cross_score": -0.8524702787399292,
+        "ent": 0.0007485938840545714,
+        "contr": 0.0027145957574248314,
+        "neut": 0.9965368509292603,
+        "expanded_ent": 0.0009322878904640675,
+        "expanded_contr": 0.00030649127438664436,
+        "expanded_neut": 0.9987611770629883,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.543604572719705,
+        "cross_score": -1.0883698463439941,
+        "ent": 0.0011796343605965376,
+        "contr": 0.0007501287618651986,
+        "neut": 0.9980702996253967,
+        "expanded_ent": 0.002811798360198736,
+        "expanded_contr": 0.0005971089121885598,
+        "expanded_neut": 0.9965910911560059,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.34130360395087683,
+        "cross_score": -1.8965531587600708,
+        "ent": 0.0008402355597354472,
+        "contr": 0.0017591906944289804,
+        "neut": 0.9974006414413452,
+        "expanded_ent": 0.0016001436160877347,
+        "expanded_contr": 0.0012099373852834105,
+        "expanded_neut": 0.9971899390220642,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.41222168604846754,
+        "cross_score": 6.061821460723877,
+        "ent": 0.03753570094704628,
+        "contr": 0.05017577484250069,
+        "neut": 0.9122885465621948,
+        "expanded_ent": 0.03753570094704628,
+        "expanded_contr": 0.05017577484250069,
+        "expanded_neut": 0.9122885465621948,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5676913617869648,
+        "cross_score": 4.37099552154541,
+        "ent": 0.009534434415400028,
+        "contr": 0.011990425176918507,
+        "neut": 0.9784750938415527,
+        "expanded_ent": 0.009534434415400028,
+        "expanded_contr": 0.011990425176918507,
+        "expanded_neut": 0.9784750938415527,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5420321078254023,
+        "cross_score": 3.480348825454712,
+        "ent": 0.0011597564443945885,
+        "contr": 0.0006200871430337429,
+        "neut": 0.9982201457023621,
+        "expanded_ent": 0.0011597564443945885,
+        "expanded_contr": 0.0006200871430337429,
+        "expanded_neut": 0.9982201457023621,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.47261256455475353,
+        "cross_score": 2.163146734237671,
+        "ent": 0.008008774369955063,
+        "contr": 0.0005640871240757406,
+        "neut": 0.9914271831512451,
+        "expanded_ent": 0.008008774369955063,
+        "expanded_contr": 0.0005640871240757406,
+        "expanded_neut": 0.9914271831512451,
+        "structural_types": []
+      }
+    ],
+    "support_score": 0.03753570094704628,
+    "contradiction_score": 0.05017577484250069,
+    "status": "NOT_SUPPORTED",
+    "current_baseline_compatible": true
+  },
+  {
+    "lot_documents": 50,
+    "nli_details": [
+      {
+        "retrieval_score": 0.5953101689249883,
+        "cross_score": 2.417444944381714,
+        "ent": 0.0017149295890703797,
+        "contr": 0.05732302740216255,
+        "neut": 0.9409620761871338,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6320869374597574,
+        "cross_score": 0.5257152915000916,
+        "ent": 0.0004308862262405455,
+        "contr": 0.0015248231356963515,
+        "neut": 0.9980442523956299,
+        "expanded_ent": 0.0033539817668497562,
+        "expanded_contr": 0.0008889930322766304,
+        "expanded_neut": 0.9957570433616638,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5593273389337785,
+        "cross_score": 0.0654541403055191,
+        "ent": 0.0006561757763847709,
+        "contr": 0.9496979713439941,
+        "neut": 0.04964591562747955,
+        "expanded_ent": 0.002445140155032277,
+        "expanded_contr": 0.04047517850995064,
+        "expanded_neut": 0.9570796489715576,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5624878868705754,
+        "cross_score": -0.1432511806488037,
+        "ent": 0.00122632656712085,
+        "contr": 0.6587626934051514,
+        "neut": 0.34001094102859497,
+        "expanded_ent": 0.00042158475844189525,
+        "expanded_contr": 0.00028111989377066493,
+        "expanded_neut": 0.9992972612380981,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5569168837024935,
+        "cross_score": -0.16970747709274292,
+        "ent": 0.0007582896505482495,
+        "contr": 0.046575043350458145,
+        "neut": 0.9526666402816772,
+        "expanded_ent": 0.0004199064278509468,
+        "expanded_contr": 0.0007232335046865046,
+        "expanded_neut": 0.9988569021224976,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5774561876851203,
+        "cross_score": -0.21485254168510437,
+        "ent": 0.0005415522609837353,
+        "contr": 0.9710063338279724,
+        "neut": 0.0284520722925663,
+        "expanded_ent": 0.00037335552042350173,
+        "expanded_contr": 0.0012535288697108626,
+        "expanded_neut": 0.9983730316162109,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5910724005394737,
+        "cross_score": -0.2694021761417389,
+        "ent": 0.0011602919548749924,
+        "contr": 0.008306492120027542,
+        "neut": 0.9905332326889038,
+        "expanded_ent": 0.0013394367415457964,
+        "expanded_contr": 0.0003937386500183493,
+        "expanded_neut": 0.9982668161392212,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.6000697268560998,
+        "cross_score": -0.3978073000907898,
+        "ent": 0.0014086611336097121,
+        "contr": 0.014895186759531498,
+        "neut": 0.9836962223052979,
+        "expanded_ent": 0.16747908294200897,
+        "expanded_contr": 0.024669162929058075,
+        "expanded_neut": 0.8078517317771912,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5953101689249883,
+        "cross_score": 2.417444944381714,
+        "ent": 0.24144631624221802,
+        "contr": 0.0205977912992239,
+        "neut": 0.7379558682441711,
+        "expanded_ent": 0.24144631624221802,
+        "expanded_contr": 0.0205977912992239,
+        "expanded_neut": 0.7379558682441711,
+        "structural_types": [
+          "ENTITY"
+        ]
+      },
+      {
+        "retrieval_score": 0.6320869374597574,
+        "cross_score": 0.5257152915000916,
+        "ent": 0.0033539817668497562,
+        "contr": 0.0008889930322766304,
+        "neut": 0.9957570433616638,
+        "expanded_ent": 0.0033539817668497562,
+        "expanded_contr": 0.0008889930322766304,
+        "expanded_neut": 0.9957570433616638,
+        "structural_types": [
+          "NEGATION"
+        ]
+      },
+      {
+        "retrieval_score": 0.5593273389337785,
+        "cross_score": 0.0654541403055191,
+        "ent": 0.002445140155032277,
+        "contr": 0.04047517850995064,
+        "neut": 0.9570796489715576,
+        "expanded_ent": 0.002445140155032277,
+        "expanded_contr": 0.04047517850995064,
+        "expanded_neut": 0.9570796489715576,
+        "structural_types": []
+      },
+      {
+        "retrieval_score": 0.5624878868705754,
+        "cross_score": -0.1432511806488037,
+        "ent": 0.00042158475844189525,
+        "contr": 0.00028111989377066493,
+        "neut": 0.9992972612380981,
+        "expanded_ent": 0.00042158475844189525,
+        "expanded_contr": 0.00028111989377066493,
+        "expanded_neut": 0.9992972612380981,
+        "structural_types": [
+          "ENTITY",
+          "NEGATION"
+        ]
+      }
+    ],
+    "support_score": 0.24144631624221802,
+    "contradiction_score": 0.6301829534604044,
+    "status": "CONTRADICTED",
+    "current_baseline_compatible": true
+  }
+]

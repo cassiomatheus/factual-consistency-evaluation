@@ -1,0 +1,16 @@
+{
+  "unittest": {
+    "discovered": 33,
+    "passed": 31,
+    "skipped_gpu": 2
+  },
+  "original_files_hash_checked": 103,
+  "original_files_changed": 0,
+  "historical_nli_records_identical": 6338,
+  "historical_nli_scope": "reaggregation, not neural reinference",
+  "technical_injection_variants_checked": 150,
+  "technical_injection_variants_passed": 150,
+  "wheel_independent_import_and_cli": true,
+  "entry_points_help_passed": 13,
+  "neural_gpu_inference_performed": false
+}

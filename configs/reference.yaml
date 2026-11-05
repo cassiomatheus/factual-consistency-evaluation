@@ -1,0 +1,25 @@
+schema_version: 1
+name: phase1_human_reference
+preparation:
+  campo_claim: claim_original
+  top_k: 5
+  dense_pool: 20
+  bm25_pool: 20
+  rerank_pool: 35
+  variantes: ''
+  max_registros: 0
+  max_claims: 0
+  backend: hf
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  reranker_model: cross-encoder/ms-marco-MiniLM-L6-v2
+  embedding_revision: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+  reranker_revision: 233902d25c440f23af6f7d6e94d2946bac0bee0a
+  device: cuda
+  embedding_batch: 32
+  reranker_batch: 16
+sampling:
+  sample_size: 200
+  fraction_a: 0.4
+  fraction_b: 0.4
+  fraction_c: 0.2
+  seed: 42

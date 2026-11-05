@@ -1,0 +1,4 @@
+name: phase1_enriched_claims_for_reference
+claims:
+  variant: enriched
+  spacy_model: en_core_web_md

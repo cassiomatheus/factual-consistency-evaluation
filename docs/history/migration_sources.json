@@ -1,0 +1,75 @@
+{
+  "captured_utc": "2026-10-22T15:04:04.460938+00:00",
+  "source_git_commit": "392ad305cac1556bfd930fd3abc6958b572c4ad1",
+  "source_tree_dirty": true,
+  "sources": {
+    "pipeline/01_extract_claims_v7_melhorado_novo.py": {
+      "destination": "src/factual_eval/claims/extraction.py",
+      "sha256": "7569e6652cfd0472a4982c429ab3ac3e3a6af1426812c47338fbd82ad7307b69"
+    },
+    "01_extract_claims_v7_melhorado.py": {
+      "destination": "src/factual_eval/claims/enriched.py",
+      "sha256": "3d66d67a5843142a2b778f886619397ab7a19d6a5776c01050dbd326c557c108"
+    },
+    "pipeline/02_retrieve_evidence_v7_melhorado_novo.py": {
+      "destination": "src/factual_eval/retrieval/pipeline.py",
+      "sha256": "9ef21ea7d5e60ddb673be10e8860477e3f766001afeaf88b6d4197991bf651eb"
+    },
+    "pipeline/03_compute_nli_v7_melhorado_novo.py": {
+      "destination": "src/factual_eval/nli/evaluation.py",
+      "sha256": "1c2e6ab680a93577d67ae6d640035f05dd64e7e128d4440cbcccdb0baa744a01"
+    },
+    "pipeline/04_classify_factual_status_melhorado_novo.py": {
+      "destination": "src/factual_eval/taxonomy/classification.py",
+      "sha256": "44cb3bd160ad39f5ac0b65fd384faed59cebc2a3729fdb8ee9730eb627b3dc37"
+    },
+    "gerador_predicado_corref_entity_V5.py": {
+      "destination": "src/factual_eval/data/injection.py",
+      "sha256": "06448f8e16d08db16a7e65afed8819e33037b1f556a64c69dbe64811ffe41354"
+    },
+    "metric/claim_extractor/claim_extractor.py": {
+      "destination": "src/factual_eval/claims/model.py",
+      "sha256": "a62f1fbd5b59174f13aeb164bdc30c28d347210edaa644c55f140079df14a82c"
+    },
+    "metric/nli/nli_aligner.py": {
+      "destination": "src/factual_eval/nli/model.py",
+      "sha256": "62c6d2797f18224d382658e13e82ef29fadfed6b2b437bd7486af3d2193dc391"
+    },
+    "metric/utils/utils.py": {
+      "destination": "src/factual_eval/utils/batching.py",
+      "sha256": "4b56928fb689c68050a32216734bf0895015520b92a0a419dcdc461c0578d8ad"
+    },
+    "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/01_preparar_dados.py": {
+      "destination": "src/factual_eval/reference/preparation.py",
+      "sha256": "e18ee75dec13a19815317b9023791958ab6f602adcedaf951eda5e17cae62079"
+    },
+    "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/04_priorizar_claims.py": {
+      "destination": "src/factual_eval/reference/sampling.py",
+      "sha256": "d98ec2d80555fa4f40b6d3d91eea04f687c25d5f1b705f023f40ba69f7153c94"
+    },
+    "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_1_dados/05_sugerir_nli_hf.py": {
+      "destination": "src/factual_eval/reference/model_suggestions.py",
+      "sha256": "f13f536ca28512e49cb059200a9470b3012e76a92767be9fd55940a10b759029"
+    },
+    "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/02_gerar_html.py": {
+      "destination": "src/factual_eval/reference/html.py",
+      "sha256": "8331d529fdec493723bfd749063a50a04f7d198dd9eecc09ce78149e523105bc"
+    },
+    "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/03_exportar_gold.py": {
+      "destination": "src/factual_eval/reference/export.py",
+      "sha256": "4dcde0dbb8219da5fd1c2f2a51cf8987ae831085fd9736dc7359b9a349e9fdb7"
+    },
+    "PROJETO_REFERENCIA_FATUAL_DUAS_PARTES/referencia_factual_duas_partes/parte_2_visualizacao/modelo.html": {
+      "destination": "src/factual_eval/reference/modelo.html",
+      "sha256": "64093ec2002e6110cd2b2f337665745ee2746934e15cb23b040bf10344e16ae0"
+    },
+    "antonimos_govreport.json": {
+      "destination": "src/factual_eval/resources/antonimos_govreport.json",
+      "sha256": "f8ff9f3a7d3ac3c340205f1cd92656159d8a088ba2353a8ff4a7621f9605ca50"
+    },
+    "pipeline/06_audit_qwen.py": {
+      "destination": "src/factual_eval/reference/qwen.py",
+      "sha256": "48d4496c7582646e03e093bc5e1b81134188d1b8a3b607c0e33615100ebcfb01"
+    }
+  }
+}

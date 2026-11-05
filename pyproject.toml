@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factual-consistency-evaluation"
+version = "0.1.0"
+description = "Controlled evaluation and failure diagnosis of a factual verification pipeline for long-document summaries"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "CC-BY-NC-SA-4.0 (adapted FENICE components; see THIRD_PARTY_NOTICES.md)"}
+dependencies = [
+  "numpy==1.26.4", "pandas==2.3.3", "pyarrow==25.0.1",
+  "torch==2.5.1", "transformers==4.38.2", "sentence-transformers==2.7.0",
+  "spacy==3.8.16", "sentencepiece==0.2.0", "tqdm==4.70.0", "PyYAML==6.0.3"
+]
+
+[project.optional-dependencies]
+injection = ["datasets==5.0.1", "lemminflect==0.2.3"]
+reference = ["scikit-learn==1.5.0"]
+audit = ["ollama==0.6.3", "pydantic==2.13.4"]
+browser-tests = ["selenium==4.51.0"]
+
+[project.scripts]
+factual-eval = "factual_eval.cli:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+factual_eval = ["resources/*.json", "resources/*.yaml", "reference/*.html", "reference/*.js"]
