@@ -3,6 +3,11 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Auditoria seletiva • Referência factual humana</title>
+<script>
+// Apply the saved theme before the page is drawn; theme preferences are not annotations.
+(()=>{let theme='light';try{const saved=localStorage.getItem('audit-theme');if(saved==='dark'||saved==='light')theme=saved}catch(_){}document.documentElement.dataset.theme=theme})();
+</script>
+
 <style>
 :root{--navy:#133449;--ink:#203747;--muted:#667d8b;--edge:#d8e5e9;--bg:#f3f7f9;--teal:#087d90;--pale:#eaf6f8;--amber:#a16a12;--amber-bg:#fff4e4;--green:#147252;--green-bg:#e4f4ed;--red:#a83e42;--red-bg:#feecee;--shadow:0 3px 13px #0c2b3a0c}
 *{box-sizing:border-box}[hidden]{display:none!important}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
@@ -31,11 +36,67 @@ header{background:var(--navy);color:white;position:sticky;top:0;z-index:10;box-s
 @media(max-width:700px){#sourcePanel .source-items{height:450px}}
 
 @media(max-height:760px) and (min-width:1051px){#queuePanel,#sourcePanel{height:auto;position:static}#queuePanel .claim-list{height:280px;flex:none}#sourcePanel .source-items{height:360px;flex:none}}
+
+/* Semantic colors shared by portable HTML and the local autosave interface. */
+:root{
+ color-scheme:light;--ink:#203747;--muted:#526979;--edge:#b7cbd6;--bg:#f3f7f9;
+ --surface:#ffffff;--surface-soft:#f5f8fb;--surface-tint:#edf6fa;--surface-selected:#e3f2f7;--surface-positive:#edf7f1;
+ --field-bg:#ffffff;--field-fg:#203747;--field-label:#2d5266;--placeholder:#5c7080;
+ --button-bg:#f5fafc;--button-fg:#18586f;--button-hover:#e3f1f7;--button-border:#92b4c4;
+ --primary-bg:#145e76;--primary-fg:#ffffff;--disabled-bg:#e3ebf0;--disabled-fg:#526472;
+ --header-bg:#133449;--header-fg:#f4f9ff;--header-muted:#d0e0ec;--header-button-bg:#ffffff;--header-button-fg:#19516b;
+ --chip-bg:#e4eff4;--chip-fg:#14516b;--purple-bg:#f0eafd;--purple-fg:#64428c;
+ --amber-bg:#fff2dc;--amber:#775016;--green-bg:#e1f3e9;--green:#175d3c;--red-bg:#fce8ea;--red:#91333d;
+ --scroll-thumb:#698394;--scroll-track:#e5edf2;--focus:#08658c;--highlight:#fff0c7;--link:#0e637f;--toast-bg:#133449;--toast-fg:#ffffff;
+}
+:root[data-theme=dark]{
+ color-scheme:dark;--navy:#0b1420;--ink:#edf3fa;--muted:#b0c0d0;--edge:#42566c;--bg:#0b121c;--teal:#7bdbe8;--pale:#163142;
+ --surface:#152130;--surface-soft:#1b2a3c;--surface-tint:#173143;--surface-selected:#164155;--surface-positive:#173629;
+ --field-bg:#0e1927;--field-fg:#f0f5fb;--field-label:#d1e3f1;--placeholder:#a7bbcc;
+ --button-bg:#21364b;--button-fg:#d4eefb;--button-hover:#2a4963;--button-border:#5f819b;
+ --primary-bg:#7bdbe8;--primary-fg:#081d28;--disabled-bg:#233347;--disabled-fg:#b8c8d7;
+ --header-bg:#0b1420;--header-fg:#f4f9ff;--header-muted:#c3d4e4;--header-button-bg:#21364b;--header-button-fg:#f1f7ff;
+ --chip-bg:#293e55;--chip-fg:#d6edff;--purple-bg:#382a4d;--purple-fg:#e7d3ff;
+ --amber-bg:#3c2d17;--amber:#ffe0a5;--green-bg:#173d2d;--green:#b8f2d0;--red-bg:#43242d;--red:#ffc6cd;
+ --scroll-thumb:#8199ad;--scroll-track:#101b29;--focus:#a0e8ff;--highlight:#49391a;--link:#a2e3ff;--toast-bg:#d9eaf7;--toast-fg:#0c2335;--shadow:0 3px 16px #00000040;
+}
+body{background:var(--bg);color:var(--ink)}a{color:var(--link)}
+header{background:var(--header-bg);color:var(--header-fg)}.brand small,.topbar label,.storage-copy{color:var(--header-muted)}
+.panel,.workspace-nav,.claim-item,.set{background:var(--surface);color:var(--ink)}
+.claim-item:hover{background:var(--surface-tint)}.claim-item.active{background:var(--surface-selected)}
+.modebar,.evidence-head,.origin,.decision-box,.evidence-fields[open]{background:var(--surface-soft);color:var(--ink)}
+.help-box,.sample-summary,.source-help,.claim-box,.context,.status-bar{background:var(--surface-tint);color:var(--ink)}
+.help-box,.selection-box{border-color:var(--edge)}.selection-box{background:var(--surface-positive);color:var(--ink)}
+.selection-box .status-bar{background:var(--surface);color:var(--ink)}
+.step-link{background:var(--surface-soft);color:var(--ink)}.step-link span,.metric{background:var(--chip-bg);color:var(--chip-fg)}
+.step-link.done span{background:var(--green-bg);color:var(--green)}
+.section-title,.completion-title,.evidence-head strong,.translation-pt{color:var(--ink)}
+.muted,.caps,.excerpt,.technical-details,.details,.set-caption,.section-copy,.form-hint,.field-description,.translation-en,.translation-label,.translation-missing,.translation-original summary,.claim-id,.empty-state,.footer,.reading-note,.checklist .missing{color:var(--muted)}
+.translation-en{font-size:.9em;line-height:1.6;opacity:1}.translation-label,.caps,.claim-id{font-size:11px}.field,.choice-label{color:var(--field-label)}.source-id{color:var(--link)}
+input[type=text],input[type=search],select,textarea,.topbar input{background:var(--field-bg);color:var(--field-fg);border-color:var(--edge);caret-color:var(--field-fg)}
+input::placeholder,textarea::placeholder{color:var(--placeholder);opacity:1}option{background:var(--field-bg);color:var(--field-fg)}
+.btn{background:var(--button-bg);color:var(--button-fg);border-color:var(--button-border)}.btn:hover{background:var(--button-hover);color:var(--button-fg)}
+.btn.primary,.btn.dark,.modebar button.active{background:var(--primary-bg);color:var(--primary-fg);border-color:var(--primary-bg)}
+.btn.primary:hover,.btn.dark:hover,.modebar button.active:hover{background:var(--primary-bg);color:var(--primary-fg);filter:brightness(1.06)}
+.btn.white{background:var(--header-button-bg);color:var(--header-button-fg);border-color:var(--button-border)}.btn.white:hover{background:var(--button-hover);color:var(--button-fg)}
+.btn.gold,.notice{background:var(--amber-bg);color:var(--amber);border-color:var(--amber)}
+.btn.green,.btn[aria-pressed=true],.source-item.selected{background:var(--green-bg);color:var(--green);border-color:var(--green)}
+.btn.danger{background:var(--red-bg);color:var(--red);border-color:var(--red)}
+.btn:disabled,.btn.primary:disabled,.btn.dark:disabled,.btn.white:disabled{opacity:1;filter:none;background:var(--disabled-bg);color:var(--disabled-fg);border-color:var(--edge);cursor:not-allowed}
+.pill{background:var(--chip-bg);color:var(--chip-fg)}.pill.orange{background:var(--amber-bg);color:var(--amber)}.pill.green{background:var(--green-bg);color:var(--green)}.pill.red{background:var(--red-bg);color:var(--red)}.pill.purple{background:var(--purple-bg);color:var(--purple-fg)}
+.translation-warning{color:var(--amber)}.checklist .met{color:var(--green)}.evidence-card.selected{border-color:var(--green);box-shadow:none}
+.source-item.located{background:var(--highlight);border-radius:7px;padding:12px 8px}
+.save-group #diskSaveStatus{background:var(--amber-bg);color:var(--amber)}.save-group #diskSaveStatus[data-state=saved]{background:var(--green-bg);color:var(--green)}.save-group #diskSaveStatus[data-state=error]{background:var(--red-bg);color:var(--red)}.save-group #diskSaveStatus[data-state=loading]{background:var(--chip-bg);color:var(--chip-fg)}
+.toast{background:var(--toast-bg);color:var(--toast-fg)}.checkbox,.queue-progress{accent-color:var(--teal)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+*{scrollbar-color:var(--scroll-thumb) var(--scroll-track);scrollbar-width:thin}::-webkit-scrollbar{width:9px;height:9px}::-webkit-scrollbar-track{background:var(--scroll-track)}::-webkit-scrollbar-thumb{background:var(--scroll-thumb);border:2px solid var(--scroll-track);border-radius:9px}
+.theme-toggle{white-space:nowrap}.theme-toggle .theme-icon{font-size:17px;line-height:1;margin-right:5px}
+
 </style>
 </head>
 <body>
 <script type="application/json" id="dataset">__DATASET_JSON__</script>
-<header><div class="topbar"><div class="brand">Auditoria seletiva de evidências<small>Leia a afirmação, confira a fonte e registre sua análise.</small></div><label>Revisor<input id="reviewer" type="text" placeholder="Identificação"></label><label>Visualização<select id="languageView"><option value="bilingual">Bilíngue</option><option value="pt">Somente português</option><option value="en">Somente inglês</option></select></label><div class="push"></div><div class="save-group"><span id="savedStatus" class="small" role="status">As alterações são salvas automaticamente.</span><span id="diskSaveStatus" class="small" role="status" hidden></span></div><button id="diskSaveNow" class="btn white" hidden>Salvar agora</button><button id="importBtn" class="btn">Importar revisão</button><input type="file" accept="application/json,.json" id="importFile" hidden><button id="exportBtn" class="btn white">Exportar revisão (.json)</button></div></header>
+<header><div class="topbar"><div class="brand">Auditoria seletiva de evidências<small>Leia a afirmação, confira a fonte e registre sua análise.</small></div><label>Revisor<input id="reviewer" type="text" placeholder="Identificação"></label><label>Visualização<select id="languageView"><option value="bilingual">Bilíngue</option><option value="pt">Somente português</option><option value="en">Somente inglês</option></select></label><button id="themeToggle" class="btn white theme-toggle" type="button" aria-label="Tema atual: claro. Ativar tema escuro." title="Alternar entre tema claro e escuro"><span id="themeIcon" class="theme-icon" aria-hidden="true">☾</span><span id="themeLabel">Tema escuro</span></button><div class="push"></div><div class="save-group"><span id="savedStatus" class="small" role="status">As alterações são salvas automaticamente.</span><span id="diskSaveStatus" class="small" role="status" hidden></span></div><button id="diskSaveNow" class="btn white" hidden>Salvar agora</button><button id="importBtn" class="btn">Importar revisão</button><input type="file" accept="application/json,.json" id="importFile" hidden><button id="exportBtn" class="btn white">Exportar revisão (.json)</button></div></header>
 <div id="diskConflict" class="notice" style="margin:12px 17px" hidden>Há análises diferentes no arquivo e neste navegador. Escolha qual continuar. Ao usar o navegador, a versão anterior do arquivo será guardada no histórico.<div class="row"><button id="diskUseFile" class="btn">Carregar arquivo salvo</button><button id="diskUseBrowser" class="btn">Usar anotações deste navegador</button></div></div>
 <div class="grid">
 <aside class="panel" id="queuePanel"><div class="head"><span>Afirmações para analisar</span><span id="selectedCount" class="pill"></span></div><div class="body" style="padding-bottom:8px">
@@ -216,7 +277,7 @@ function renderClaimList(){
  el('queueProgress').max=base.length||1;el('queueProgress').value=done;
 }
 function render(){if(!DATA.claims.length)return;const c=currentClaim(),s=selectionOf(c);el('claimInfo').innerHTML=`<div class="caps">${esc(c.doc_id)} · ${esc(c.claim_id)} · ${state.current+1}/${DATA.claims.length}</div><strong class="caps">Afirmação / Claim</strong><div class="claim-box">${bilingual(c.claim_id+':claim',c.claim_text)}</div>${c.claim_original!==c.claim_resolved?`<div class="small muted"><strong>Claim original:</strong> ${bilingual(c.claim_id+':original',c.claim_original)}<strong>Expansão automática:</strong> ${bilingual(c.claim_id+':resolved',c.claim_resolved)} <span class="pill orange">Não verificada</span></div>`:''}<div class="origin">${c.origin_sentence===c.claim_text?'<strong>Sentença do resumo:</strong> mesmo texto da afirmação acima.':`<strong class="caps">Sentença do resumo</strong>${bilingual(c.claim_id+':origin',c.origin_sentence||'Não disponível')}`}</div>`;el('claimGroup').textContent=hasSample?groupName(s.selection_group):'Todas as afirmações';el('priorityText').textContent=s.priority_score!=null?`Prioridade de revisão ${s.priority_score}/100`:'';el('quickSection').classList.toggle('visible',state.mode==='quick');el('deepSection').classList.toggle('visible',state.mode==='deep');el('quickModeBtn').classList.toggle('active',state.mode==='quick');el('deepModeBtn').classList.toggle('active',state.mode==='deep');renderClaimList();renderQuick();renderDeep();renderSource();updateWorkflow()}
-function gotoSource(sid){state.sourceSearch=sid;state.sourcePage=0;el('sourceSearch').value=sid;renderSource();el('sourceSearch').scrollIntoView({behavior:'smooth',block:'center'});const t=el('source-'+sid);if(t)t.style.background='#fff4dd'}
+function gotoSource(sid){state.sourceSearch=sid;state.sourcePage=0;el('sourceSearch').value=sid;renderSource();el('sourceSearch').scrollIntoView({behavior:'smooth',block:'center'});const t=el('source-'+sid);if(t)t.classList.add('located')}
 function triage(choice){const c=currentClaim(),a=annotation(c.claim_id),pool=poolOf(c);a.triage_status=choice;a.triage_sentence_id=pool[0]?.sentence_id||'';a.triage_utc=new Date().toISOString();if(choice==='SUPPORT_CANDIDATE'||choice==='CONTRADICTION_CANDIDATE'){
  if(pool[0]){const ca=annCandidate(a,pool[0].sentence_id);ca.relevance='SIM';ca.relation=choice==='SUPPORT_CANDIDATE'?'SUPPORTS':'CONTRADICTS';ca.sufficient='SIM'}
  } // Não preenche factual_label, claim_valid, gold_evidence_sets nem a confirmação de busca.
@@ -236,6 +297,15 @@ document.body.addEventListener('click',e=>{const b=e.target.closest('button');if
 });
 document.body.addEventListener('change',e=>{const t=e.target;if(t.dataset.claimField){annotation(currentClaim().claim_id)[t.dataset.claimField]=t.value;save();if(t.dataset.claimField==='review_status')renderClaimList();return}if(t.dataset.claimBool){annotation(currentClaim().claim_id)[t.dataset.claimBool]=t.checked;save();return}if(t.dataset.candidateField){annCandidate(annotation(currentClaim().claim_id),t.dataset.sid)[t.dataset.candidateField]=t.value;save();return}});
 document.body.addEventListener('input',e=>{const t=e.target;if(t.matches('textarea[data-claim-field]')){annotation(currentClaim().claim_id)[t.dataset.claimField]=t.value;save()}if(t.matches('textarea[data-candidate-field]')){annCandidate(annotation(currentClaim().claim_id),t.dataset.sid)[t.dataset.candidateField]=t.value;save()}});
+function setTheme(theme,persist=true){
+ const dark=theme==='dark';document.documentElement.dataset.theme=dark?'dark':'light';
+ el('themeLabel').textContent=dark?'Tema claro':'Tema escuro';el('themeIcon').textContent=dark?'☀':'☾';
+ el('themeToggle').setAttribute('aria-label',dark?'Tema atual: escuro. Ativar tema claro.':'Tema atual: claro. Ativar tema escuro.');
+ if(persist){try{localStorage.setItem('audit-theme',dark?'dark':'light')}catch(_){}}
+ measureHeader();
+}
+el('themeToggle').onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+setTheme(document.documentElement.dataset.theme||'light',false);
 el('languageView').value=state.language;
 el('languageView').onchange=e=>{state.language=e.target.value;try{sessionStorage.setItem('audit-language',state.language)}catch(_){}render()};
 el('quickModeBtn').onclick=()=>{state.mode='quick';render()};el('deepModeBtn').onclick=()=>{state.mode='deep';render()};el('nextBtn').onclick=()=>moveFiltered(1);el('prevBtn').onclick=()=>moveFiltered(-1);el('nextPending').onclick=nextIncomplete;

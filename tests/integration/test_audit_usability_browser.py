@@ -1,6 +1,7 @@
 """Guided review behavior in a real browser, with synthetic data and no model."""
 import json
 import os
+import re
 from pathlib import Path
 import tempfile
 import unittest
@@ -112,6 +113,44 @@ class AuditUsabilityBrowserTests(unittest.TestCase):
         self.assertTrue(self.find('#stepDecision').is_displayed())
         self.click('#stepDecision')
         self.assertTrue(self.find('#factualLabel').is_displayed())
+
+    def test_theme_toggle_persists_preserves_notes_and_has_readable_contrast(self):
+        self.notes('Minha análise deve permanecer igual ao trocar o tema.')
+        original=self.revision()
+        self.click('[data-goto="doc1:S00001"]')
+        selectors=['body','.panel','.section-title','.field','.caps','.claim-box',
+                   '.translation-en','.translation-label','.step-link','.step-link span',
+                   '.pill','.btn.primary:not(:disabled)','#completeReview','#humanNotes',
+                   '#sourceSearch','.notice','.metric','.evidence-head','.selection-box',
+                   '.source-item.located .translation-en','#themeToggle']
+        def luminance(color):
+            values=[float(x)/255 for x in re.findall(r'[\d.]+',color)[:3]]
+            values=[v/12.92 if v<=.04045 else ((v+.055)/1.055)**2.4 for v in values]
+            return sum(v*w for v,w in zip(values,[.2126,.7152,.0722]))
+        for theme in ['dark','light','dark']:
+            with self.subTest(theme=theme):
+                if self.browser.execute_script('return document.documentElement.dataset.theme')!=theme:
+                    self.click('#themeToggle')
+                self.assertEqual(self.browser.execute_script('return document.documentElement.dataset.theme'),theme)
+                self.assertEqual(self.revision(),original)
+                pairs=self.browser.execute_script('''return arguments[0].map(selector=>{
+                  const el=document.querySelector(selector);if(!el)return null;
+                  const style=getComputedStyle(el);let ancestor=el,bg='';
+                  while(ancestor){bg=getComputedStyle(ancestor).backgroundColor;if(bg!=='rgba(0, 0, 0, 0)'&&bg!=='transparent')break;ancestor=ancestor.parentElement}
+                  return [selector,style.color,bg];
+                }).filter(Boolean)''',selectors)
+                self.assertGreaterEqual(len(pairs),20)
+                for selector,foreground,background in pairs:
+                    fg,bg=luminance(foreground),luminance(background)
+                    ratio=(max(fg,bg)+.05)/(min(fg,bg)+.05)
+                    self.assertGreaterEqual(ratio,4.5,f'{theme}: {selector}: {ratio:.2f}:1')
+        self.browser.refresh()
+        self.assertEqual(self.browser.execute_script('return document.documentElement.dataset.theme'),'dark')
+        self.assertEqual(self.find('#humanNotes').get_attribute('value'),original['claims']['doc1:original:C00001']['notes'])
+        self.browser.set_window_size(390,900)
+        width=self.browser.execute_script('return [document.documentElement.scrollWidth,innerWidth]')
+        self.assertLessEqual(width[0],width[1]+1)
+        self.assertTrue(self.find('#themeToggle').is_displayed())
 
 
 if __name__=='__main__':

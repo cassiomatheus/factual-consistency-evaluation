@@ -32,6 +32,12 @@ exportador em `reference/export.py` continuam sendo a validação final para gol
 
 ## Ler, buscar e acompanhar
 
+No cabeçalho, **Tema escuro** alterna para o fundo escuro e passa a oferecer
+**Tema claro** para voltar. A preferência é guardada no navegador, separada das
+anotações, e restaurada ao reabrir a interface no mesmo perfil/origem. Ambos os
+temas incluem cores próprias para textos, inglês original, campos, seleção de
+evidências, avisos e indicadores de salvamento. A troca não modifica a revisão.
+
 - **Dados da recuperação e identificador** expande scores e o ID integral do
   trecho. Nenhum ranking ou score é recalculado por essa apresentação.
 - **Detalhar a avaliação deste trecho · opcional** expande os julgamentos

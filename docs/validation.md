@@ -1,5 +1,22 @@
 # Validações executadas na migração
 
+## Temas claro e escuro — 5 de novembro de 2026
+
+O cabeçalho da auditoria permite alternar temas e guarda a preferência no
+navegador, separada das anotações.
+
+| Verificação | Resultado |
+|---|---|
+| Suíte offline | 59 testes: 48 aprovados, 11 integrações opt-in ignoradas |
+| Navegador | 8 testes aprovados no Firefox 159.0.1 |
+| Contraste | Pelo menos 4,5:1 nos textos e controles avaliados em ambos os temas, incluindo inglês original, campos, botões desabilitados e realce na fonte |
+| Persistência | Preferência de tema restaurada após recarregar a página; anotações preservadas durante a alternância |
+| Regressão | Navegação, conclusões, exportação/importação e salvamento em disco continuam funcionando |
+| Inspeção visual | Prévias dos dados reais em `outputs/previews/auditoria-tema-claro.png` e `auditoria-tema-escuro.png`; revisão temporária usada para não alterar as análises do pesquisador |
+
+O teste de contraste cobre elementos representativos e não constitui uma
+certificação geral de acessibilidade. Nenhuma etapa científica foi repetida.
+
 ## Usabilidade da auditoria — 5 de novembro de 2026
 
 Fluxo e operação em [audit-interface.md](audit-interface.md).
